@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": "true",
   "scripts": {
-    "test": "test"
+    "start": "index.js"
   },
   "author": "einar valgeirsson",
   "license": "ISC",
