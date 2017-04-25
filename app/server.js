@@ -35,4 +35,4 @@ const options = {
 console.log("options: " + options);
 
 
-https.createServer(options, app).listen(PORT, HOST, null);
+console.log(https.createServer(options, app).listen(PORT, HOST, null));
