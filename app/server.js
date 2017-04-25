@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.post('/', function(req, res) {
+app.post('/slackhook', function(req, res) {
 
   console.log("request: " + JSON.stringify(req.body));
 
