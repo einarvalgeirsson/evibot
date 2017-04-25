@@ -29,4 +29,7 @@ const options = {
   cert: fs.readFileSync('cert.pem')
 }
 
+console.log("options: " + options);
+
+
 https.createServer(options, app).listen(8000);
