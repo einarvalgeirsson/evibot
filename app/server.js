@@ -24,6 +24,7 @@ app.post('/', function(req, res) {
 })
 
 app.get("/", function(req, res) {
+  console.log("in get");
   res.send("hello!")
 })
 
