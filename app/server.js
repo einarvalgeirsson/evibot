@@ -7,6 +7,9 @@ var jwt = require("express-jwt");
 var rsaValidation = require('auth0-api-jwt-rsa-validation');
 var bodyParser = require('body-parser')
 
+var PORT = process.env.PORT || 8000;
+var HOST = process.env.HOST || '';
+
 app.use(bodyParser.urlencoded({
     extended: true
 }));
@@ -32,4 +35,4 @@ const options = {
 console.log("options: " + options);
 
 
-https.createServer(options, app).listen(8000);
+https.createServer(options, app).listen(PORT, HOST, null);
