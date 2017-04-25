@@ -2,10 +2,10 @@
   "name": "evibot",
   "version": "1.0.0",
   "description": "backend to handle slackbot evibot and api.ai together with kperson and bob",
-  "main": "index.js",
+  "main": "server.js",
   "private": "true",
   "scripts": {
-    "start": "index.js"
+    "start": "node app/server.js"
   },
   "author": "einar valgeirsson",
   "license": "ISC",
