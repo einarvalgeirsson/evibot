@@ -4,13 +4,20 @@ var app = express();
 var jwt = require("express-jwt");
 var rsaValidation = require('auth0-api-jwt-rsa-validation');
 var bodyParser = require('body-parser')
+var http = require('http')
 
 const Botkit = require('botkit');
 const apiai = require('apiai');
 const Entities = require('html-entities').XmlEntities;
 const decoder = new Entities();
+const uuid = require('node-uuid');
+
 const apiAiAccessToken = process.env.ACCESSTOKEN;
 const slackBotKey = process.env.SLACKKEY;
+
+var PORT = process.env.PORT || 8000;
+
+console.log("PORT: " + PORT);
 
 
 const sessionIds = new Map();
@@ -19,10 +26,15 @@ const botController = Botkit.slackbot({
     debug: false
     //include "log: false" to disable logging
 });
-
+console.log('slackBotKey', slackBotKey);
 var bot = botController.spawn({
     token: slackBotKey
-}).startRTM();
+}).startRTM(function(err) {
+  if (err) {
+   console.log(err);
+   throw new Error('Could not connect to Slack', err);
+ }
+});
 
 const devConfig = process.env.DEVELOPMENT_CONFIG == 'true';
 
@@ -31,6 +43,8 @@ if (devConfig) {
     apiaiOptions.hostname = process.env.DEVELOPMENT_HOST;
     apiaiOptions.path = "/api/query";
 }
+
+console.log('hostname', apiaiOptions.hostname);
 
 const apiAiService = apiai(apiAiAccessToken, apiaiOptions);
 
@@ -125,29 +139,8 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
     }
 });
 
+//Create a server to prevent Heroku kills the bot
+const server = http.createServer((req, res) => res.end());
 
-
-var PORT = process.env.PORT || 8000;
-
-console.log("PORT: " + PORT);
-
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
-app.use(bodyParser.json());
-
-app.post('/slackhook', function(req, res) {
-
-  console.log("request: " + JSON.stringify(req.body));
-
-  var c = req.body.challenge
-  res.json({challenge: c})
-})
-
-app.get("/", function(req, res) {
-  console.log("in get");
-  res.send("hello!")
-})
-
-
-app.listen(PORT, null);
+//Lets start our server
+server.listen((process.env.PORT || 5000), () => console.log("Server listening"));
