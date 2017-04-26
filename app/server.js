@@ -143,4 +143,4 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
 const server = http.createServer((req, res) => res.end());
 
 //Lets start our server
-server.listen((process.env.PORT || 5000), () => console.log("Server listening"));
+server.listen((PORT, () => console.log("Server listening"));
