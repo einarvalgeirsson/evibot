@@ -116,45 +116,24 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                         let action = response.result.action;
 
                         if (action === "listCompetences") {
-                          let competence = response.result.parameters.competence;
+                          let competence = response.result.parameters.competence.toLowerCase();
                           let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
                           let people = [];
 
                           // for (var i = 0; i < data.length; i++) {
                           // }
                           for (var i = 0; i < data.length; i++) {
-
-                           console.log(data[i].name);
-
-                           if (data[i].name === competence) {
-                             console.log('MATCH');
-
-                             
+                           if (data[i].name.toLowerCase() === competence) {
+                             var emails = "";
+                             data[i].active_memberships.forEach(function(member) {
+                               emails += member.email + " ";
+                              console.log(member.email);
+                              });
                            }
                           }
 
-                          console.log('####BEFORE FOR###');
+                          console.log('emails ', emails);
 
-                          for (var competenceObj in data) {
-                            console.log('####LOOPING###');
-
-                            if (competenceObj.name === competence) {
-                              console.log('####COLOR###',competenceObj.color);
-                            }
-                          }
-
-                          console.log('####AFTER FOR###');
-
-
-
-                        //   for(var c in data) {
-                        //     if (name == competence) {
-                        //       for(var email in data.name.active_memberships) {
-                        //         people.add(email);
-                        //       }
-                        //     }
-                        //   }
-                        //   console.log('people', people);
                         }
 
                         // Lookup in competence json
