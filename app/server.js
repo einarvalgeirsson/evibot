@@ -154,13 +154,13 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             console.log('project', project);
 
                             var people = "";
-                            for (var i = 0; i < alloc.length; i++) {
-                              console.log('loop ', i);
+                            for (var k = 0; k < alloc.length; k++) {
+                              console.log('loop ', k);
 
-                              if (alloc[i].project_id.toLowerCase() === project) {
-                                console.log('found match', alloc[i].project_id.toLowerCase());
+                              if (alloc[k].project_id.toLowerCase() === project) {
+                                console.log('found match', alloc[k].project_id.toLowerCase());
 
-                                  people += alloc[i].person_id + "\n";
+                                  people += alloc[k].person_id + "\n";
                               }
                             }
 
