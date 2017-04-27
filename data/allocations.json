@@ -1,5 +1,4 @@
-{
-  "allocations": [
+"allocations": [
     {
       "id": "1",
       "start_date": "2016-10-14",
@@ -36,5 +35,4 @@
       "average_payment": "850",
       "location_id": "2"
     }
-  ]
-}
+]
