@@ -150,11 +150,11 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             let alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
                             console.log('allocations', alloc);
 
-                            let project = response.result.paramters.project;
+                            let project = response.result.parameters.project;
                             var people = "";
                             for (var i = 0; i < alloc.length; i++) {
                               if (alloc[i].project_id === project) {
-                                  people += alloc[i].person_id;
+                                  people += alloc[i].person_id + "\n";
                               }
                             }
                             bot.reply(message, responseText + "\n" + people, (err, resp) => {
