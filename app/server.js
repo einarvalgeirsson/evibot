@@ -38,14 +38,10 @@ var bot = botController.spawn({
  }
 });
 
-const devConfig = process.env.DEVELOPMENT_CONFIG == 'true';
-
 const apiaiOptions = {};
-if (devConfig) {
-    console.log('in devConfig ' + devConfig, process.env.DEVELOPMENT_HOST);
-    apiaiOptions.hostname = process.env.DEVELOPMENT_HOST;
-    apiaiOptions.path = "/api/query";
-}
+
+apiaiOptions.hostname = process.env.DEVELOPMENT_HOST;
+apiaiOptions.path = "/api/query";
 
 console.log('hostname', apiaiOptions.hostname);
 
