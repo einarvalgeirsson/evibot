@@ -122,7 +122,16 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
 
                           // for (var i = 0; i < data.length; i++) {
                           // }
+                          for (var i = 0; i < data.length; i++) {
 
+                           console.log(data[i].name);
+
+                           if (data[i].name === competence) {
+                             console.log('MATCH');
+
+                             
+                           }
+                          }
 
                           console.log('####BEFORE FOR###');
 
