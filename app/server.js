@@ -120,14 +120,21 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                           let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
                           let people = [];
 
-                          for(var name in data) {
-                            if (name == competence) {
-                              for(var email in data.name.active_memberships) {
-                                people.add(email);
-                              }
+                          for (var competenceObj in data) {
+                            if (competenceObj.name === competence) {
+                              console.log(competenceObj.color);
                             }
                           }
-                          console.log('people', people);
+
+
+                        //   for(var c in data) {
+                        //     if (name == competence) {
+                        //       for(var email in data.name.active_memberships) {
+                        //         people.add(email);
+                        //       }
+                        //     }
+                        //   }
+                        //   console.log('people', people);
                         }
 
                         // Lookup in competence json
