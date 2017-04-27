@@ -118,7 +118,6 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                         if (action === "listCompetences") {
                           let competence = response.result.parameters.competence;
                           let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
-                          console.log("data", data);
                           let people = [];
 
                           // for (var i = 0; i < data.length; i++) {
