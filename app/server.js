@@ -14,6 +14,8 @@ const Entities = require('html-entities').XmlEntities;
 const decoder = new Entities();
 const uuid = require('node-uuid');
 
+var app = express();
+
 const apiAiAccessToken = process.env.ACCESSTOKEN;
 const slackBotKey = process.env.SLACKKEY;
 
@@ -152,6 +154,13 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
     } catch (err) {
         console.error(err);
     }
+});
+
+app.get('/', function(request, response) {
+   var result = 'App is running'
+   response.send(result);
+}).listen(app.get('port'), function() {
+   console.log('App is running, server is listening on port ', app.get('port'));
 });
 
 //Create a server to prevent Heroku kills the bot
