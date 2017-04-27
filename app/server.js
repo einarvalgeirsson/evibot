@@ -113,6 +113,23 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                         let responseData = response.result.fulfillment.data;
                         let action = response.result.action;
 
+                        if (action == "listCompetences") {
+                          let competence = response.result.parameters.competence;
+                          let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
+                          let people = [];
+
+                          for(var name in data) {
+                            if (name == competence) {
+                              for(var email in data.name.active_memberships) {
+                                people.add(email);
+                              }
+                            }
+                          }
+                          console.log('people', people);
+                        }
+
+                        // Lookup in competence json
+
                         if (isDefined(responseData) && isDefined(responseData.slack)) {
                             try{
                                 bot.reply(message, responseData.slack);
@@ -143,4 +160,4 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
 const server = http.createServer((req, res) => res.end());
 
 //Lets start our server
-server.listen((PORT, () => console.log("Server listening"));
+server.listen((PORT, () => console.log("Server listening")));

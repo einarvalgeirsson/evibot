@@ -1,0 +1,4379 @@
+[
+  {
+    "id": 1,
+    "name": "Java",
+    "abbreviation": "Java",
+    "color": "red",
+    "created_at": "2014-08-14T08:29:55.000Z",
+    "updated_at": "2014-08-14T08:34:13.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 111,
+        "person_id": 250,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "aleksandar.filipov@jayway.com"
+      },
+      {
+        "id": 112,
+        "person_id": 160,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "anders.eriksson@jayway.com"
+      },
+      {
+        "id": 113,
+        "person_id": 326,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "anna.dijulio@jayway.com"
+      },
+      {
+        "id": 114,
+        "person_id": 328,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "anton.fagerberg@jayway.com"
+      },
+      {
+        "id": 115,
+        "person_id": 59,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "arvid.huss@jayway.com"
+      },
+      {
+        "id": 116,
+        "person_id": 276,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "daniel.kleveros@jayway.com"
+      },
+      {
+        "id": 117,
+        "person_id": 207,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "erik.chrissopoulos@jayway.com"
+      },
+      {
+        "id": 118,
+        "person_id": 154,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "erik.ogenvik@jayway.com"
+      },
+      {
+        "id": 119,
+        "person_id": 229,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "hans.karlsson@jayway.com"
+      },
+      {
+        "id": 120,
+        "person_id": 25,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "henrik.lundahl@jayway.com"
+      },
+      {
+        "id": 121,
+        "person_id": 312,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "jacob.ferm@jayway.com"
+      },
+      {
+        "id": 122,
+        "person_id": 62,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "jan.kronquist@jayway.com"
+      },
+      {
+        "id": 123,
+        "person_id": 128,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "jens.nordahl@jayway.com"
+      },
+      {
+        "id": 125,
+        "person_id": 37,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "johan.haleby@jayway.com"
+      },
+      {
+        "id": 126,
+        "person_id": 164,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "johan.lundahl@jayway.com"
+      },
+      {
+        "id": 127,
+        "person_id": 318,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "johan.nordenswan@jayway.com"
+      },
+      {
+        "id": 128,
+        "person_id": 130,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "karl-johan.stenflo@jayway.com"
+      },
+      {
+        "id": 129,
+        "person_id": 244,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "katarina.hallberg@jayway.com"
+      },
+      {
+        "id": 130,
+        "person_id": 266,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "kenneth.andersson@jayway.com"
+      },
+      {
+        "id": 131,
+        "person_id": 61,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "magnus.kivi@jayway.com"
+      },
+      {
+        "id": 132,
+        "person_id": 42,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "mattias.lindskog@jayway.com"
+      },
+      {
+        "id": 133,
+        "person_id": 26,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "mattias.rosberg@jayway.com"
+      },
+      {
+        "id": 135,
+        "person_id": 43,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "michael.kober@jayway.com"
+      },
+      {
+        "id": 136,
+        "person_id": 45,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "per.bockman@jayway.com"
+      },
+      {
+        "id": 137,
+        "person_id": 46,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "peter.dagsberg@jayway.com"
+      },
+      {
+        "id": 138,
+        "person_id": 215,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "rasmus.gohs@jayway.com"
+      },
+      {
+        "id": 139,
+        "person_id": 332,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "steve.widinghoff@jayway.com"
+      },
+      {
+        "id": 140,
+        "person_id": 248,
+        "competence_area_id": 1,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "timo.hillerns@jayway.com"
+      },
+      {
+        "id": 243,
+        "person_id": 233,
+        "competence_area_id": 1,
+        "start_date": "2014-08-15",
+        "end_date": null,
+        "created_at": "2014-08-15T13:10:04.000Z",
+        "updated_at": "2014-08-15T13:10:04.000Z",
+        "email": "emil.kristensen@jayway.com"
+      },
+      {
+        "id": 264,
+        "person_id": 66,
+        "competence_area_id": 1,
+        "start_date": "2014-09-02",
+        "end_date": null,
+        "created_at": "2014-09-02T11:44:35.000Z",
+        "updated_at": "2014-09-02T11:44:35.000Z",
+        "email": "niklas.uhrberg@jayway.com"
+      },
+      {
+        "id": 290,
+        "person_id": 4,
+        "competence_area_id": 1,
+        "start_date": "2014-10-02",
+        "end_date": null,
+        "created_at": "2014-10-02T15:14:05.000Z",
+        "updated_at": "2014-10-02T15:14:05.000Z",
+        "email": "steen.lehmann@jayway.com"
+      },
+      {
+        "id": 291,
+        "person_id": 15,
+        "competence_area_id": 1,
+        "start_date": "2014-10-03",
+        "end_date": null,
+        "created_at": "2014-10-03T09:06:36.000Z",
+        "updated_at": "2014-10-03T09:06:36.000Z",
+        "email": "mads.enevoldsen@jayway.com"
+      },
+      {
+        "id": 302,
+        "person_id": 336,
+        "competence_area_id": 1,
+        "start_date": "2014-10-08",
+        "end_date": null,
+        "created_at": "2014-10-08T13:49:16.000Z",
+        "updated_at": "2014-10-08T13:49:16.000Z",
+        "email": "riku.suur-nuuja@jayway.com"
+      },
+      {
+        "id": 304,
+        "person_id": 44,
+        "competence_area_id": 1,
+        "start_date": "2014-10-14",
+        "end_date": null,
+        "created_at": "2014-10-14T09:09:56.000Z",
+        "updated_at": "2014-10-14T09:09:56.000Z",
+        "email": "patrik.faijerson@jayway.com"
+      },
+      {
+        "id": 314,
+        "person_id": 347,
+        "competence_area_id": 1,
+        "start_date": "2014-11-18",
+        "end_date": null,
+        "created_at": "2014-11-18T09:46:27.000Z",
+        "updated_at": "2014-11-18T09:46:27.000Z",
+        "email": "pavel.rozenblioum@jayway.com"
+      },
+      {
+        "id": 323,
+        "person_id": 342,
+        "competence_area_id": 1,
+        "start_date": "2015-01-12",
+        "end_date": null,
+        "created_at": "2015-01-12T12:25:45.000Z",
+        "updated_at": "2015-01-12T12:25:45.000Z",
+        "email": "magnus.forsberg@jayway.com"
+      },
+      {
+        "id": 341,
+        "person_id": 356,
+        "competence_area_id": 1,
+        "start_date": "2015-03-09",
+        "end_date": null,
+        "created_at": "2015-03-09T10:18:01.000Z",
+        "updated_at": "2015-03-09T10:18:01.000Z",
+        "email": "karl.marhall@jayway.com"
+      },
+      {
+        "id": 355,
+        "person_id": 354,
+        "competence_area_id": 1,
+        "start_date": "2015-04-22",
+        "end_date": null,
+        "created_at": "2015-04-22T18:08:49.000Z",
+        "updated_at": "2015-04-22T18:08:49.000Z",
+        "email": "lars.ostling@jayway.com"
+      },
+      {
+        "id": 356,
+        "person_id": 351,
+        "competence_area_id": 1,
+        "start_date": "2015-05-12",
+        "end_date": null,
+        "created_at": "2015-05-12T08:48:33.000Z",
+        "updated_at": "2015-05-12T08:48:33.000Z",
+        "email": "carl.nordenfelt@jayway.com"
+      },
+      {
+        "id": 367,
+        "person_id": 369,
+        "competence_area_id": 1,
+        "start_date": "2015-10-07",
+        "end_date": null,
+        "created_at": "2015-10-07T09:43:57.000Z",
+        "updated_at": "2015-10-07T09:43:57.000Z",
+        "email": "jannik.sundo@jayway.com"
+      },
+      {
+        "id": 383,
+        "person_id": 384,
+        "competence_area_id": 1,
+        "start_date": "2016-01-25",
+        "end_date": null,
+        "created_at": "2016-01-25T15:22:02.000Z",
+        "updated_at": "2016-01-25T15:22:02.000Z",
+        "email": "tadeas.petak@jayway.com"
+      },
+      {
+        "id": 386,
+        "person_id": 379,
+        "competence_area_id": 1,
+        "start_date": "2016-02-09",
+        "end_date": null,
+        "created_at": "2016-02-09T08:20:27.000Z",
+        "updated_at": "2016-02-09T08:20:27.000Z",
+        "email": "kasper.frederiksen@jayway.com"
+      },
+      {
+        "id": 394,
+        "person_id": 386,
+        "competence_area_id": 1,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T13:17:01.000Z",
+        "updated_at": "2016-02-10T13:17:01.000Z",
+        "email": "jeppe.leth@jayway.com"
+      },
+      {
+        "id": 408,
+        "person_id": 76,
+        "competence_area_id": 1,
+        "start_date": "2016-07-11",
+        "end_date": null,
+        "created_at": "2016-07-11T06:01:47.000Z",
+        "updated_at": "2016-07-11T06:01:47.000Z",
+        "email": "mattias.severson@jayway.com"
+      },
+      {
+        "id": 420,
+        "person_id": 396,
+        "competence_area_id": 1,
+        "start_date": "2016-10-19",
+        "end_date": null,
+        "created_at": "2016-10-19T08:56:22.000Z",
+        "updated_at": "2016-10-19T08:56:22.000Z",
+        "email": "ondrej.bendo@jayway.com"
+      },
+      {
+        "id": 437,
+        "person_id": 418,
+        "competence_area_id": 1,
+        "start_date": "2017-01-09",
+        "end_date": null,
+        "created_at": "2017-01-09T12:01:16.000Z",
+        "updated_at": "2017-01-09T12:01:16.000Z",
+        "email": "johnny.dang@jayway.com"
+      },
+      {
+        "id": 438,
+        "person_id": 419,
+        "competence_area_id": 1,
+        "start_date": "2017-01-09",
+        "end_date": null,
+        "created_at": "2017-01-09T17:51:46.000Z",
+        "updated_at": "2017-01-09T17:51:46.000Z",
+        "email": "markus.maga@jayway.com"
+      },
+      {
+        "id": 443,
+        "person_id": 171,
+        "competence_area_id": 1,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T11:59:45.000Z",
+        "updated_at": "2017-01-11T11:59:45.000Z",
+        "email": "sara.beskow@jayway.com"
+      },
+      {
+        "id": 453,
+        "person_id": 404,
+        "competence_area_id": 1,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T14:55:40.000Z",
+        "updated_at": "2017-01-11T14:55:40.000Z",
+        "email": "henrik.jarnbrand@jayway.com"
+      },
+      {
+        "id": 472,
+        "person_id": 434,
+        "competence_area_id": 1,
+        "start_date": "2017-04-19",
+        "end_date": null,
+        "created_at": "2017-04-19T07:47:09.000Z",
+        "updated_at": "2017-04-19T07:47:09.000Z",
+        "email": "peter.christiansen@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Android",
+    "abbreviation": "Andr",
+    "color": "rgb(152,203,2)",
+    "created_at": "2014-08-14T08:31:53.000Z",
+    "updated_at": "2016-01-20T10:39:30.000Z",
+    "description": "team-android@jayway.com, cph.android@jayway.com",
+    "active_memberships": [
+      {
+        "id": 17,
+        "person_id": 24,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "albin.theander@jayway.com"
+      },
+      {
+        "id": 18,
+        "person_id": 250,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "aleksandar.filipov@jayway.com"
+      },
+      {
+        "id": 19,
+        "person_id": 216,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "anders.ericsson@jayway.com"
+      },
+      {
+        "id": 20,
+        "person_id": 260,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "andreas.nilsson@jayway.com"
+      },
+      {
+        "id": 21,
+        "person_id": 281,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "carl-emil.kjellstrand@jayway.com"
+      },
+      {
+        "id": 22,
+        "person_id": 70,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "darius.katz@jayway.com"
+      },
+      {
+        "id": 23,
+        "person_id": 228,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "hannes.gruber@jayway.com"
+      },
+      {
+        "id": 24,
+        "person_id": 246,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "jenny.nilsson@jayway.com"
+      },
+      {
+        "id": 25,
+        "person_id": 74,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "jonas.graudums@jayway.com"
+      },
+      {
+        "id": 26,
+        "person_id": 266,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "kenneth.andersson@jayway.com"
+      },
+      {
+        "id": 27,
+        "person_id": 26,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "mattias.rosberg@jayway.com"
+      },
+      {
+        "id": 28,
+        "person_id": 309,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "michael.persson@jayway.com"
+      },
+      {
+        "id": 29,
+        "person_id": 273,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "per-erik.bergman@jayway.com"
+      },
+      {
+        "id": 30,
+        "person_id": 215,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "rasmus.gohs@jayway.com"
+      },
+      {
+        "id": 31,
+        "person_id": 161,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "renas.reda@jayway.com"
+      },
+      {
+        "id": 32,
+        "person_id": 332,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "steve.widinghoff@jayway.com"
+      },
+      {
+        "id": 33,
+        "person_id": 310,
+        "competence_area_id": 2,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:05.000Z",
+        "updated_at": "2014-08-14T13:31:05.000Z",
+        "email": "thomas.hansson@jayway.com"
+      },
+      {
+        "id": 260,
+        "person_id": 280,
+        "competence_area_id": 2,
+        "start_date": "2014-09-01",
+        "end_date": null,
+        "created_at": "2014-09-01T11:39:08.000Z",
+        "updated_at": "2014-09-01T11:39:08.000Z",
+        "email": "svante.farjh@jayway.com"
+      },
+      {
+        "id": 296,
+        "person_id": 241,
+        "competence_area_id": 2,
+        "start_date": "2014-10-06",
+        "end_date": null,
+        "created_at": "2014-10-06T07:58:58.000Z",
+        "updated_at": "2014-10-06T07:58:58.000Z",
+        "email": "andreas.gustafsson@jayway.com"
+      },
+      {
+        "id": 297,
+        "person_id": 335,
+        "competence_area_id": 2,
+        "start_date": "2014-10-06",
+        "end_date": null,
+        "created_at": "2014-10-06T13:58:03.000Z",
+        "updated_at": "2014-10-06T13:58:03.000Z",
+        "email": "max.ringstrom@jayway.com"
+      },
+      {
+        "id": 326,
+        "person_id": 251,
+        "competence_area_id": 2,
+        "start_date": "2015-01-16",
+        "end_date": null,
+        "created_at": "2015-01-16T10:42:57.000Z",
+        "updated_at": "2015-01-16T10:42:57.000Z",
+        "email": "johan.linden@jayway.com"
+      },
+      {
+        "id": 330,
+        "person_id": 327,
+        "competence_area_id": 2,
+        "start_date": "2015-02-05",
+        "end_date": null,
+        "created_at": "2015-02-05T13:33:12.000Z",
+        "updated_at": "2015-02-05T13:33:12.000Z",
+        "email": "sofia.wijkstrom@jayway.com"
+      },
+      {
+        "id": 345,
+        "person_id": 233,
+        "competence_area_id": 2,
+        "start_date": "2015-03-23",
+        "end_date": null,
+        "created_at": "2015-03-23T10:52:30.000Z",
+        "updated_at": "2015-03-23T10:52:30.000Z",
+        "email": "emil.kristensen@jayway.com"
+      },
+      {
+        "id": 352,
+        "person_id": 119,
+        "competence_area_id": 2,
+        "start_date": "2015-04-17",
+        "end_date": null,
+        "created_at": "2015-04-17T06:19:13.000Z",
+        "updated_at": "2015-04-17T06:19:13.000Z",
+        "email": "erik.rydgren@jayway.com"
+      },
+      {
+        "id": 368,
+        "person_id": 369,
+        "competence_area_id": 2,
+        "start_date": "2015-10-07",
+        "end_date": null,
+        "created_at": "2015-10-07T09:44:04.000Z",
+        "updated_at": "2015-10-07T09:44:04.000Z",
+        "email": "jannik.sundo@jayway.com"
+      },
+      {
+        "id": 388,
+        "person_id": 385,
+        "competence_area_id": 2,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T12:35:10.000Z",
+        "updated_at": "2016-02-10T12:35:10.000Z",
+        "email": "anders.haahr@jayway.com"
+      },
+      {
+        "id": 391,
+        "person_id": 348,
+        "competence_area_id": 2,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T13:04:30.000Z",
+        "updated_at": "2016-02-10T13:04:30.000Z",
+        "email": "cem.turan@jayway.com"
+      },
+      {
+        "id": 393,
+        "person_id": 386,
+        "competence_area_id": 2,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T13:16:55.000Z",
+        "updated_at": "2016-02-10T13:16:55.000Z",
+        "email": "jeppe.leth@jayway.com"
+      },
+      {
+        "id": 397,
+        "person_id": 201,
+        "competence_area_id": 2,
+        "start_date": "2016-02-12",
+        "end_date": null,
+        "created_at": "2016-02-11T23:18:21.000Z",
+        "updated_at": "2016-02-11T23:18:21.000Z",
+        "email": "mads.troest@jayway.com"
+      },
+      {
+        "id": 404,
+        "person_id": 242,
+        "competence_area_id": 2,
+        "start_date": "2016-05-20",
+        "end_date": null,
+        "created_at": "2016-05-20T06:00:00.000Z",
+        "updated_at": "2016-05-20T06:00:00.000Z",
+        "email": "laszlo.urszuly@jayway.com"
+      },
+      {
+        "id": 415,
+        "person_id": 279,
+        "competence_area_id": 2,
+        "start_date": "2016-09-19",
+        "end_date": null,
+        "created_at": "2016-09-19T05:51:22.000Z",
+        "updated_at": "2016-09-19T05:51:22.000Z",
+        "email": "einar.valgeirsson@jayway.com"
+      },
+      {
+        "id": 418,
+        "person_id": 403,
+        "competence_area_id": 2,
+        "start_date": "2016-10-12",
+        "end_date": null,
+        "created_at": "2016-10-12T07:38:44.000Z",
+        "updated_at": "2016-10-12T07:38:44.000Z",
+        "email": "tobias.timm@jayway.com"
+      },
+      {
+        "id": 419,
+        "person_id": 396,
+        "competence_area_id": 2,
+        "start_date": "2016-10-19",
+        "end_date": null,
+        "created_at": "2016-10-19T08:55:36.000Z",
+        "updated_at": "2016-10-19T08:55:36.000Z",
+        "email": "ondrej.bendo@jayway.com"
+      },
+      {
+        "id": 425,
+        "person_id": 163,
+        "competence_area_id": 2,
+        "start_date": "2016-11-19",
+        "end_date": null,
+        "created_at": "2016-11-19T10:18:03.000Z",
+        "updated_at": "2016-11-19T10:18:03.000Z",
+        "email": "tomas.nilsson@jayway.com"
+      },
+      {
+        "id": 439,
+        "person_id": 419,
+        "competence_area_id": 2,
+        "start_date": "2017-01-09",
+        "end_date": null,
+        "created_at": "2017-01-09T17:51:59.000Z",
+        "updated_at": "2017-01-09T17:51:59.000Z",
+        "email": "markus.maga@jayway.com"
+      },
+      {
+        "id": 457,
+        "person_id": 154,
+        "competence_area_id": 2,
+        "start_date": "2017-01-16",
+        "end_date": null,
+        "created_at": "2017-01-16T13:26:11.000Z",
+        "updated_at": "2017-01-16T13:26:11.000Z",
+        "email": "erik.ogenvik@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "iOS",
+    "abbreviation": "iOS",
+    "color": "rgb(60,60,60)",
+    "created_at": "2014-08-14T08:33:56.000Z",
+    "updated_at": "2016-03-03T08:46:14.000Z",
+    "description": "iOS development",
+    "active_memberships": [
+      {
+        "id": 97,
+        "person_id": 69,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "andreas.lund@jayway.com"
+      },
+      {
+        "id": 98,
+        "person_id": 260,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "andreas.nilsson@jayway.com"
+      },
+      {
+        "id": 99,
+        "person_id": 230,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "fredrik.nannestad@jayway.com"
+      },
+      {
+        "id": 100,
+        "person_id": 165,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "gustaf.nilklint@jayway.com"
+      },
+      {
+        "id": 101,
+        "person_id": 228,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "hannes.gruber@jayway.com"
+      },
+      {
+        "id": 103,
+        "person_id": 317,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "jimmie.jensen@jayway.com"
+      },
+      {
+        "id": 106,
+        "person_id": 3,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "kasper.hansen@jayway.com"
+      },
+      {
+        "id": 107,
+        "person_id": 121,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "lars.wirfelt@jayway.com"
+      },
+      {
+        "id": 108,
+        "person_id": 309,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "michael.persson@jayway.com"
+      },
+      {
+        "id": 109,
+        "person_id": 275,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "petar.mataic@jayway.com"
+      },
+      {
+        "id": 110,
+        "person_id": 174,
+        "competence_area_id": 3,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:27.000Z",
+        "updated_at": "2014-08-14T13:34:27.000Z",
+        "email": "peter.lindstrom@jayway.com"
+      },
+      {
+        "id": 258,
+        "person_id": 280,
+        "competence_area_id": 3,
+        "start_date": "2014-09-01",
+        "end_date": null,
+        "created_at": "2014-09-01T11:38:17.000Z",
+        "updated_at": "2014-09-01T11:38:17.000Z",
+        "email": "svante.farjh@jayway.com"
+      },
+      {
+        "id": 357,
+        "person_id": 355,
+        "competence_area_id": 3,
+        "start_date": "2015-05-13",
+        "end_date": null,
+        "created_at": "2015-05-13T13:14:21.000Z",
+        "updated_at": "2015-05-13T13:14:21.000Z",
+        "email": "claus.simonsen@jayway.com"
+      },
+      {
+        "id": 363,
+        "person_id": 58,
+        "competence_area_id": 3,
+        "start_date": "2015-08-24",
+        "end_date": null,
+        "created_at": "2015-08-24T19:46:42.000Z",
+        "updated_at": "2015-08-24T19:46:42.000Z",
+        "email": "mario.boikov@jayway.com"
+      },
+      {
+        "id": 365,
+        "person_id": 361,
+        "competence_area_id": 3,
+        "start_date": "2015-09-01",
+        "end_date": null,
+        "created_at": "2015-09-01T08:03:14.000Z",
+        "updated_at": "2015-09-01T08:03:14.000Z",
+        "email": "andy.huber@jayway.com"
+      },
+      {
+        "id": 369,
+        "person_id": 375,
+        "competence_area_id": 3,
+        "start_date": "2015-11-23",
+        "end_date": null,
+        "created_at": "2015-11-23T09:07:01.000Z",
+        "updated_at": "2015-11-23T09:07:01.000Z",
+        "email": "alexandru.vasile@jayway.com"
+      },
+      {
+        "id": 398,
+        "person_id": 1,
+        "competence_area_id": 3,
+        "start_date": "2016-03-01",
+        "end_date": null,
+        "created_at": "2016-03-01T09:35:14.000Z",
+        "updated_at": "2016-03-01T09:35:14.000Z",
+        "email": "erik.underbjerg@jayway.com"
+      },
+      {
+        "id": 399,
+        "person_id": 81,
+        "competence_area_id": 3,
+        "start_date": "2016-03-03",
+        "end_date": null,
+        "created_at": "2016-03-03T08:45:59.000Z",
+        "updated_at": "2016-03-03T08:45:59.000Z",
+        "email": "christian.hedin@jayway.com"
+      },
+      {
+        "id": 407,
+        "person_id": 265,
+        "competence_area_id": 3,
+        "start_date": "2016-06-20",
+        "end_date": null,
+        "created_at": "2016-06-20T07:36:34.000Z",
+        "updated_at": "2016-06-20T07:36:34.000Z",
+        "email": "robert.hedgate@jayway.com"
+      },
+      {
+        "id": 417,
+        "person_id": 403,
+        "competence_area_id": 3,
+        "start_date": "2016-10-12",
+        "end_date": null,
+        "created_at": "2016-10-12T07:38:37.000Z",
+        "updated_at": "2016-10-12T07:38:37.000Z",
+        "email": "tobias.timm@jayway.com"
+      },
+      {
+        "id": 461,
+        "person_id": 234,
+        "competence_area_id": 3,
+        "start_date": "2017-03-10",
+        "end_date": null,
+        "created_at": "2017-03-10T14:05:12.000Z",
+        "updated_at": "2017-03-10T14:05:12.000Z",
+        "email": "anders.poulsen@jayway.com"
+      },
+      {
+        "id": 463,
+        "person_id": 400,
+        "competence_area_id": 3,
+        "start_date": "2017-03-10",
+        "end_date": null,
+        "created_at": "2017-03-10T14:06:16.000Z",
+        "updated_at": "2017-03-10T14:06:16.000Z",
+        "email": "paolo.longato@jayway.com"
+      },
+      {
+        "id": 465,
+        "person_id": 430,
+        "competence_area_id": 3,
+        "start_date": "2017-04-03",
+        "end_date": null,
+        "created_at": "2017-04-03T08:15:38.000Z",
+        "updated_at": "2017-04-03T08:15:38.000Z",
+        "email": "gina.adamova@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Win clients",
+    "abbreviation": "Win",
+    "color": "rgb(33,16,86)",
+    "created_at": "2014-08-14T08:35:21.000Z",
+    "updated_at": "2014-08-14T11:12:29.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 228,
+        "person_id": 205,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "andreas.hammar@jayway.com"
+      },
+      {
+        "id": 229,
+        "person_id": 252,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "hakan.hedenstrom@jayway.com"
+      },
+      {
+        "id": 230,
+        "person_id": 212,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "johan.olsson@jayway.com"
+      },
+      {
+        "id": 231,
+        "person_id": 88,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "johan.silfversparre@jayway.com"
+      },
+      {
+        "id": 232,
+        "person_id": 91,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "lars-hakan.jonsson@jayway.com"
+      },
+      {
+        "id": 233,
+        "person_id": 121,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "lars.wirfelt@jayway.com"
+      },
+      {
+        "id": 234,
+        "person_id": 159,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "mattias.sjogren@jayway.com"
+      },
+      {
+        "id": 235,
+        "person_id": 217,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "ola.karlsson@jayway.com"
+      },
+      {
+        "id": 236,
+        "person_id": 227,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "per-olof.bondesson@jayway.com"
+      },
+      {
+        "id": 238,
+        "person_id": 265,
+        "competence_area_id": 4,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "robert.hedgate@jayway.com"
+      },
+      {
+        "id": 270,
+        "person_id": 103,
+        "competence_area_id": 4,
+        "start_date": "2014-09-05",
+        "end_date": null,
+        "created_at": "2014-09-05T08:23:28.000Z",
+        "updated_at": "2014-09-05T08:23:28.000Z",
+        "email": "andreas.ekberg@jayway.se"
+      },
+      {
+        "id": 309,
+        "person_id": 344,
+        "competence_area_id": 4,
+        "start_date": "2014-11-09",
+        "end_date": null,
+        "created_at": "2014-11-09T11:12:16.000Z",
+        "updated_at": "2014-11-09T11:12:16.000Z",
+        "email": "frank.camara@jayway.com"
+      },
+      {
+        "id": 320,
+        "person_id": 277,
+        "competence_area_id": 4,
+        "start_date": "2014-12-16",
+        "end_date": null,
+        "created_at": "2014-12-16T09:36:21.000Z",
+        "updated_at": "2014-12-16T09:36:21.000Z",
+        "email": "alexander.persson@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": ".NET backend",
+    "abbreviation": ".NET",
+    "color": "rgb(104,33,122)",
+    "created_at": "2014-08-14T08:36:31.000Z",
+    "updated_at": "2014-08-14T08:37:04.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 5,
+        "person_id": 234,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "anders.poulsen@jayway.com"
+      },
+      {
+        "id": 6,
+        "person_id": 238,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "andreas.eriksson@jayway.com"
+      },
+      {
+        "id": 7,
+        "person_id": 329,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "christoffer.jerrebo@jayway.com"
+      },
+      {
+        "id": 8,
+        "person_id": 334,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "elizabeth.andrews@jayway.com"
+      },
+      {
+        "id": 9,
+        "person_id": 282,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "hang.ruan@jayway.com"
+      },
+      {
+        "id": 10,
+        "person_id": 313,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "hanna.sahle@jayway.com"
+      },
+      {
+        "id": 11,
+        "person_id": 225,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "jakob.nilsson-ehle@jayway.com"
+      },
+      {
+        "id": 12,
+        "person_id": 212,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "johan.olsson@jayway.com"
+      },
+      {
+        "id": 13,
+        "person_id": 94,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "niclas.hognert@jayway.com"
+      },
+      {
+        "id": 15,
+        "person_id": 227,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "per-olof.bondesson@jayway.com"
+      },
+      {
+        "id": 16,
+        "person_id": 168,
+        "competence_area_id": 5,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:29:24.000Z",
+        "updated_at": "2014-08-14T13:29:24.000Z",
+        "email": "per.okvist@jayway.com"
+      },
+      {
+        "id": 248,
+        "person_id": 87,
+        "competence_area_id": 5,
+        "start_date": "2014-08-20",
+        "end_date": null,
+        "created_at": "2014-08-20T09:05:52.000Z",
+        "updated_at": "2014-08-20T09:05:52.000Z",
+        "email": "joakim.hogart@jayway.com"
+      },
+      {
+        "id": 282,
+        "person_id": 224,
+        "competence_area_id": 5,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T08:14:47.000Z",
+        "updated_at": "2014-09-29T08:14:47.000Z",
+        "email": "christian.jacobsen@jayway.com"
+      },
+      {
+        "id": 299,
+        "person_id": 340,
+        "competence_area_id": 5,
+        "start_date": "2014-10-08",
+        "end_date": null,
+        "created_at": "2014-10-08T07:37:15.000Z",
+        "updated_at": "2014-10-08T07:37:15.000Z",
+        "email": "peter.trana@jayway.com"
+      },
+      {
+        "id": 311,
+        "person_id": 205,
+        "competence_area_id": 5,
+        "start_date": "2014-11-12",
+        "end_date": null,
+        "created_at": "2014-11-12T20:31:35.000Z",
+        "updated_at": "2014-11-12T20:31:35.000Z",
+        "email": "andreas.hammar@jayway.com"
+      },
+      {
+        "id": 338,
+        "person_id": 352,
+        "competence_area_id": 5,
+        "start_date": "2015-03-06",
+        "end_date": null,
+        "created_at": "2015-03-06T15:26:41.000Z",
+        "updated_at": "2015-03-06T15:26:41.000Z",
+        "email": "tomas.lycken@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Test",
+    "abbreviation": "Test",
+    "color": "rgb(0,113,66)",
+    "created_at": "2014-08-14T08:38:18.000Z",
+    "updated_at": "2014-08-14T08:38:18.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 164,
+        "person_id": 107,
+        "competence_area_id": 6,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "davor.crnomat@jayway.com"
+      },
+      {
+        "id": 165,
+        "person_id": 279,
+        "competence_area_id": 6,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "einar.valgeirsson@jayway.com"
+      },
+      {
+        "id": 166,
+        "person_id": 310,
+        "competence_area_id": 6,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "thomas.hansson@jayway.com"
+      },
+      {
+        "id": 331,
+        "person_id": 327,
+        "competence_area_id": 6,
+        "start_date": "2015-02-05",
+        "end_date": null,
+        "created_at": "2015-02-05T13:34:05.000Z",
+        "updated_at": "2015-02-05T13:34:05.000Z",
+        "email": "sofia.wijkstrom@jayway.com"
+      },
+      {
+        "id": 435,
+        "person_id": 407,
+        "competence_area_id": 6,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T10:08:32.000Z",
+        "updated_at": "2017-01-03T10:08:32.000Z",
+        "email": "frank.brilhuis@jayway.com"
+      },
+      {
+        "id": 447,
+        "person_id": 132,
+        "competence_area_id": 6,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:10:23.000Z",
+        "updated_at": "2017-01-11T12:10:23.000Z",
+        "email": "sigurdur.birgisson@jayway.com"
+      },
+      {
+        "id": 459,
+        "person_id": 423,
+        "competence_area_id": 6,
+        "start_date": "2017-03-08",
+        "end_date": null,
+        "created_at": "2017-03-08T08:58:22.000Z",
+        "updated_at": "2017-03-08T08:58:22.000Z",
+        "email": "bolette.stubbe@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Internet of Things",
+    "abbreviation": "IoT",
+    "color": "rgb(82,174,213)",
+    "created_at": "2014-08-14T08:39:23.000Z",
+    "updated_at": "2014-08-27T06:35:46.000Z",
+    "description": "The Internet of Things is the notion of connecting a lot of devices to the internet. The competence area also includes embedded, cloud, protocols, web, crypto.",
+    "active_memberships": [
+      {
+        "id": 89,
+        "person_id": 207,
+        "competence_area_id": 7,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "erik.chrissopoulos@jayway.com"
+      },
+      {
+        "id": 90,
+        "person_id": 165,
+        "competence_area_id": 7,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "gustaf.nilklint@jayway.com"
+      },
+      {
+        "id": 93,
+        "person_id": 267,
+        "competence_area_id": 7,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "johannes.peltopiri@jayway.com"
+      },
+      {
+        "id": 94,
+        "person_id": 74,
+        "competence_area_id": 7,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "jonas.graudums@jayway.com"
+      },
+      {
+        "id": 95,
+        "person_id": 121,
+        "competence_area_id": 7,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "lars.wirfelt@jayway.com"
+      },
+      {
+        "id": 96,
+        "person_id": 235,
+        "competence_area_id": 7,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "par.siko@jayway.com"
+      },
+      {
+        "id": 250,
+        "person_id": 251,
+        "competence_area_id": 7,
+        "start_date": "2014-08-20",
+        "end_date": null,
+        "created_at": "2014-08-20T11:47:51.000Z",
+        "updated_at": "2014-08-20T11:47:51.000Z",
+        "email": "johan.linden@jayway.com"
+      },
+      {
+        "id": 266,
+        "person_id": 163,
+        "competence_area_id": 7,
+        "start_date": "2014-09-03",
+        "end_date": null,
+        "created_at": "2014-09-03T15:43:46.000Z",
+        "updated_at": "2014-09-03T15:43:46.000Z",
+        "email": "tomas.nilsson@jayway.com"
+      },
+      {
+        "id": 272,
+        "person_id": 103,
+        "competence_area_id": 7,
+        "start_date": "2014-09-05",
+        "end_date": null,
+        "created_at": "2014-09-05T08:25:13.000Z",
+        "updated_at": "2014-09-05T08:25:13.000Z",
+        "email": "andreas.ekberg@jayway.se"
+      },
+      {
+        "id": 277,
+        "person_id": 169,
+        "competence_area_id": 7,
+        "start_date": "2014-09-24",
+        "end_date": null,
+        "created_at": "2014-09-24T08:22:34.000Z",
+        "updated_at": "2014-09-24T08:22:34.000Z",
+        "email": "andreas.back@jayway.com"
+      },
+      {
+        "id": 295,
+        "person_id": 241,
+        "competence_area_id": 7,
+        "start_date": "2014-10-06",
+        "end_date": null,
+        "created_at": "2014-10-06T07:58:37.000Z",
+        "updated_at": "2014-10-06T07:58:37.000Z",
+        "email": "andreas.gustafsson@jayway.com"
+      },
+      {
+        "id": 403,
+        "person_id": 70,
+        "competence_area_id": 7,
+        "start_date": "2016-05-19",
+        "end_date": null,
+        "created_at": "2016-05-19T12:24:00.000Z",
+        "updated_at": "2016-05-19T12:24:00.000Z",
+        "email": "darius.katz@jayway.com"
+      },
+      {
+        "id": 411,
+        "person_id": 395,
+        "competence_area_id": 7,
+        "start_date": "2016-08-09",
+        "end_date": null,
+        "created_at": "2016-08-09T08:00:16.000Z",
+        "updated_at": "2016-08-09T08:00:16.000Z",
+        "email": "dennis.overhage@jayway.com"
+      },
+      {
+        "id": 456,
+        "person_id": 295,
+        "competence_area_id": 7,
+        "start_date": "2017-01-13",
+        "end_date": null,
+        "created_at": "2017-01-13T08:52:40.000Z",
+        "updated_at": "2017-01-13T08:52:40.000Z",
+        "email": "jonas.flodqvist@jayway.com"
+      },
+      {
+        "id": 458,
+        "person_id": 347,
+        "competence_area_id": 7,
+        "start_date": "2017-01-18",
+        "end_date": null,
+        "created_at": "2017-01-18T18:57:49.000Z",
+        "updated_at": "2017-01-18T18:57:49.000Z",
+        "email": "pavel.rozenblioum@jayway.com"
+      },
+      {
+        "id": 468,
+        "person_id": 433,
+        "competence_area_id": 7,
+        "start_date": "2017-04-18",
+        "end_date": null,
+        "created_at": "2017-04-18T09:40:35.000Z",
+        "updated_at": "2017-04-18T09:40:35.000Z",
+        "email": "stefan.nordlander@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Web",
+    "abbreviation": "Web",
+    "color": "#FF7F00",
+    "created_at": "2014-08-14T08:42:33.000Z",
+    "updated_at": "2014-08-14T21:29:12.000Z",
+    "description": "JavaScript, HTML/CSS, Node.js ",
+    "active_memberships": [
+      {
+        "id": 1,
+        "person_id": 4,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T08:55:47.000Z",
+        "updated_at": "2014-08-14T11:36:22.000Z",
+        "email": "steen.lehmann@jayway.com"
+      },
+      {
+        "id": 188,
+        "person_id": 311,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "abbas.hassanali@jayway.com"
+      },
+      {
+        "id": 189,
+        "person_id": 24,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "albin.theander@jayway.com"
+      },
+      {
+        "id": 190,
+        "person_id": 277,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "alexander.persson@jayway.com"
+      },
+      {
+        "id": 191,
+        "person_id": 314,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "alexandra.almo@jayway.com"
+      },
+      {
+        "id": 193,
+        "person_id": 170,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "anders.janmyr@jayway.com"
+      },
+      {
+        "id": 194,
+        "person_id": 234,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "anders.poulsen@jayway.com"
+      },
+      {
+        "id": 195,
+        "person_id": 69,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "andreas.lund@jayway.com"
+      },
+      {
+        "id": 197,
+        "person_id": 326,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "anna.dijulio@jayway.com"
+      },
+      {
+        "id": 198,
+        "person_id": 328,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "anton.fagerberg@jayway.com"
+      },
+      {
+        "id": 199,
+        "person_id": 59,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "arvid.huss@jayway.com"
+      },
+      {
+        "id": 200,
+        "person_id": 281,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "carl-emil.kjellstrand@jayway.com"
+      },
+      {
+        "id": 202,
+        "person_id": 107,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "davor.crnomat@jayway.com"
+      },
+      {
+        "id": 204,
+        "person_id": 334,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "elizabeth.andrews@jayway.com"
+      },
+      {
+        "id": 205,
+        "person_id": 1,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "erik.underbjerg@jayway.com"
+      },
+      {
+        "id": 206,
+        "person_id": 257,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "fredrik.frodlund@jayway.com"
+      },
+      {
+        "id": 207,
+        "person_id": 150,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "gustaf.nk@jayway.com"
+      },
+      {
+        "id": 208,
+        "person_id": 313,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "hanna.sahle@jayway.com"
+      },
+      {
+        "id": 209,
+        "person_id": 229,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "hans.karlsson@jayway.com"
+      },
+      {
+        "id": 210,
+        "person_id": 60,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "henrik.bernstrom@jayway.com"
+      },
+      {
+        "id": 211,
+        "person_id": 32,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "hugo.josefson@jayway.com"
+      },
+      {
+        "id": 212,
+        "person_id": 246,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "jenny.nilsson@jayway.com"
+      },
+      {
+        "id": 213,
+        "person_id": 128,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "jens.nordahl@jayway.com"
+      },
+      {
+        "id": 215,
+        "person_id": 304,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "joacim.lowgren@jayway.com"
+      },
+      {
+        "id": 216,
+        "person_id": 244,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "katarina.hallberg@jayway.com"
+      },
+      {
+        "id": 217,
+        "person_id": 26,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "mattias.rosberg@jayway.com"
+      },
+      {
+        "id": 218,
+        "person_id": 159,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "mattias.sjogren@jayway.com"
+      },
+      {
+        "id": 219,
+        "person_id": 43,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "michael.kober@jayway.com"
+      },
+      {
+        "id": 220,
+        "person_id": 94,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "niclas.hognert@jayway.com"
+      },
+      {
+        "id": 221,
+        "person_id": 264,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "oskar.wickstrom@jayway.com"
+      },
+      {
+        "id": 222,
+        "person_id": 235,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "par.siko@jayway.com"
+      },
+      {
+        "id": 223,
+        "person_id": 227,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "per-olof.bondesson@jayway.com"
+      },
+      {
+        "id": 224,
+        "person_id": 46,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "peter.dagsberg@jayway.com"
+      },
+      {
+        "id": 225,
+        "person_id": 174,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "peter.lindstrom@jayway.com"
+      },
+      {
+        "id": 226,
+        "person_id": 215,
+        "competence_area_id": 8,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:24.000Z",
+        "updated_at": "2014-08-14T13:35:24.000Z",
+        "email": "rasmus.gohs@jayway.com"
+      },
+      {
+        "id": 255,
+        "person_id": 308,
+        "competence_area_id": 8,
+        "start_date": "2014-08-27",
+        "end_date": null,
+        "created_at": "2014-08-27T14:06:28.000Z",
+        "updated_at": "2014-08-27T14:06:28.000Z",
+        "email": "joakim.astbrant@jayway.com"
+      },
+      {
+        "id": 267,
+        "person_id": 163,
+        "competence_area_id": 8,
+        "start_date": "2014-09-03",
+        "end_date": null,
+        "created_at": "2014-09-03T15:44:11.000Z",
+        "updated_at": "2014-09-03T15:44:11.000Z",
+        "email": "tomas.nilsson@jayway.com"
+      },
+      {
+        "id": 269,
+        "person_id": 266,
+        "competence_area_id": 8,
+        "start_date": "2014-09-04",
+        "end_date": null,
+        "created_at": "2014-09-04T12:57:54.000Z",
+        "updated_at": "2014-09-04T12:57:54.000Z",
+        "email": "kenneth.andersson@jayway.com"
+      },
+      {
+        "id": 278,
+        "person_id": 169,
+        "competence_area_id": 8,
+        "start_date": "2014-09-24",
+        "end_date": null,
+        "created_at": "2014-09-24T08:22:53.000Z",
+        "updated_at": "2014-09-24T08:22:53.000Z",
+        "email": "andreas.back@jayway.com"
+      },
+      {
+        "id": 284,
+        "person_id": 224,
+        "competence_area_id": 8,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T08:15:33.000Z",
+        "updated_at": "2014-09-29T08:15:33.000Z",
+        "email": "christian.jacobsen@jayway.com"
+      },
+      {
+        "id": 298,
+        "person_id": 340,
+        "competence_area_id": 8,
+        "start_date": "2014-10-08",
+        "end_date": null,
+        "created_at": "2014-10-08T07:36:49.000Z",
+        "updated_at": "2014-10-08T07:36:49.000Z",
+        "email": "peter.trana@jayway.com"
+      },
+      {
+        "id": 303,
+        "person_id": 336,
+        "competence_area_id": 8,
+        "start_date": "2014-10-08",
+        "end_date": null,
+        "created_at": "2014-10-08T13:49:45.000Z",
+        "updated_at": "2014-10-08T13:49:45.000Z",
+        "email": "riku.suur-nuuja@jayway.com"
+      },
+      {
+        "id": 308,
+        "person_id": 344,
+        "competence_area_id": 8,
+        "start_date": "2014-11-09",
+        "end_date": null,
+        "created_at": "2014-11-09T11:05:22.000Z",
+        "updated_at": "2014-11-09T11:05:22.000Z",
+        "email": "frank.camara@jayway.com"
+      },
+      {
+        "id": 310,
+        "person_id": 253,
+        "competence_area_id": 8,
+        "start_date": "2014-11-10",
+        "end_date": null,
+        "created_at": "2014-11-10T10:27:33.000Z",
+        "updated_at": "2014-11-10T10:27:33.000Z",
+        "email": "fjodor.ekstrom@jayway.com"
+      },
+      {
+        "id": 337,
+        "person_id": 351,
+        "competence_area_id": 8,
+        "start_date": "2015-03-04",
+        "end_date": null,
+        "created_at": "2015-03-04T19:27:49.000Z",
+        "updated_at": "2015-03-04T19:27:49.000Z",
+        "email": "carl.nordenfelt@jayway.com"
+      },
+      {
+        "id": 351,
+        "person_id": 358,
+        "competence_area_id": 8,
+        "start_date": "2015-04-14",
+        "end_date": null,
+        "created_at": "2015-04-14T10:56:37.000Z",
+        "updated_at": "2015-04-14T10:56:37.000Z",
+        "email": "albert.bertilsson@jayway.com"
+      },
+      {
+        "id": 361,
+        "person_id": 119,
+        "competence_area_id": 8,
+        "start_date": "2015-08-14",
+        "end_date": null,
+        "created_at": "2015-08-14T11:31:00.000Z",
+        "updated_at": "2015-08-14T11:31:00.000Z",
+        "email": "erik.rydgren@jayway.com"
+      },
+      {
+        "id": 366,
+        "person_id": 361,
+        "competence_area_id": 8,
+        "start_date": "2015-09-01",
+        "end_date": null,
+        "created_at": "2015-09-01T08:03:22.000Z",
+        "updated_at": "2015-09-01T08:03:22.000Z",
+        "email": "andy.huber@jayway.com"
+      },
+      {
+        "id": 381,
+        "person_id": 205,
+        "competence_area_id": 8,
+        "start_date": "2016-01-19",
+        "end_date": null,
+        "created_at": "2016-01-19T07:39:19.000Z",
+        "updated_at": "2016-01-19T07:39:19.000Z",
+        "email": "andreas.hammar@jayway.com"
+      },
+      {
+        "id": 382,
+        "person_id": 384,
+        "competence_area_id": 8,
+        "start_date": "2016-01-25",
+        "end_date": null,
+        "created_at": "2016-01-25T15:21:55.000Z",
+        "updated_at": "2016-01-25T15:21:55.000Z",
+        "email": "tadeas.petak@jayway.com"
+      },
+      {
+        "id": 384,
+        "person_id": 364,
+        "competence_area_id": 8,
+        "start_date": "2016-01-25",
+        "end_date": null,
+        "created_at": "2016-01-25T16:52:13.000Z",
+        "updated_at": "2016-01-25T16:52:13.000Z",
+        "email": "elise.ellerstedt@jayway.com"
+      },
+      {
+        "id": 385,
+        "person_id": 366,
+        "competence_area_id": 8,
+        "start_date": "2016-01-26",
+        "end_date": null,
+        "created_at": "2016-01-26T07:20:24.000Z",
+        "updated_at": "2016-01-26T07:20:24.000Z",
+        "email": "filip.svensson@jayway.com"
+      },
+      {
+        "id": 387,
+        "person_id": 379,
+        "competence_area_id": 8,
+        "start_date": "2016-02-09",
+        "end_date": null,
+        "created_at": "2016-02-09T08:20:53.000Z",
+        "updated_at": "2016-02-09T08:20:53.000Z",
+        "email": "kasper.frederiksen@jayway.com"
+      },
+      {
+        "id": 389,
+        "person_id": 385,
+        "competence_area_id": 8,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T12:35:50.000Z",
+        "updated_at": "2016-02-10T12:35:50.000Z",
+        "email": "anders.haahr@jayway.com"
+      },
+      {
+        "id": 392,
+        "person_id": 348,
+        "competence_area_id": 8,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T13:05:04.000Z",
+        "updated_at": "2016-02-10T13:05:04.000Z",
+        "email": "cem.turan@jayway.com"
+      },
+      {
+        "id": 401,
+        "person_id": 65,
+        "competence_area_id": 8,
+        "start_date": "2016-05-03",
+        "end_date": null,
+        "created_at": "2016-05-03T13:55:20.000Z",
+        "updated_at": "2016-05-03T13:55:20.000Z",
+        "email": "ulrik.sandberg@jayway.com"
+      },
+      {
+        "id": 412,
+        "person_id": 408,
+        "competence_area_id": 8,
+        "start_date": "2016-09-07",
+        "end_date": null,
+        "created_at": "2016-09-07T12:19:37.000Z",
+        "updated_at": "2016-09-07T12:19:37.000Z",
+        "email": "marcus.lindfeldt@jayway.com"
+      },
+      {
+        "id": 422,
+        "person_id": 412,
+        "competence_area_id": 8,
+        "start_date": "2016-11-04",
+        "end_date": null,
+        "created_at": "2016-11-04T12:36:35.000Z",
+        "updated_at": "2016-11-04T12:36:35.000Z",
+        "email": "john.elgenstierna@jayway.com"
+      },
+      {
+        "id": 427,
+        "person_id": 417,
+        "competence_area_id": 8,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T09:56:50.000Z",
+        "updated_at": "2017-01-03T09:56:50.000Z",
+        "email": "jacob.nyquist@jayway.com"
+      },
+      {
+        "id": 440,
+        "person_id": 419,
+        "competence_area_id": 8,
+        "start_date": "2017-01-09",
+        "end_date": null,
+        "created_at": "2017-01-09T17:52:23.000Z",
+        "updated_at": "2017-01-09T17:52:23.000Z",
+        "email": "markus.maga@jayway.com"
+      },
+      {
+        "id": 441,
+        "person_id": 171,
+        "competence_area_id": 8,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T11:59:28.000Z",
+        "updated_at": "2017-01-11T11:59:28.000Z",
+        "email": "sara.beskow@jayway.com"
+      },
+      {
+        "id": 444,
+        "person_id": 35,
+        "competence_area_id": 8,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:00:20.000Z",
+        "updated_at": "2017-01-11T12:00:20.000Z",
+        "email": "jesper.nilsson@jayway.com"
+      },
+      {
+        "id": 445,
+        "person_id": 11,
+        "competence_area_id": 8,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:07:00.000Z",
+        "updated_at": "2017-01-11T12:07:00.000Z",
+        "email": "karin.hofbauer@jayway.com"
+      },
+      {
+        "id": 446,
+        "person_id": 132,
+        "competence_area_id": 8,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:10:00.000Z",
+        "updated_at": "2017-01-11T12:10:00.000Z",
+        "email": "sigurdur.birgisson@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "User Interaction Design",
+    "abbreviation": "UI",
+    "color": "#d33682",
+    "created_at": "2014-08-14T08:44:35.000Z",
+    "updated_at": "2014-08-14T08:44:35.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 167,
+        "person_id": 216,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "anders.ericsson@jayway.com"
+      },
+      {
+        "id": 168,
+        "person_id": 193,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "binh.tu@jayway.com"
+      },
+      {
+        "id": 169,
+        "person_id": 257,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "fredrik.frodlund@jayway.com"
+      },
+      {
+        "id": 170,
+        "person_id": 230,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "fredrik.nannestad@jayway.com"
+      },
+      {
+        "id": 171,
+        "person_id": 86,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "hakan.reis@jayway.com"
+      },
+      {
+        "id": 172,
+        "person_id": 228,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "hannes.gruber@jayway.com"
+      },
+      {
+        "id": 173,
+        "person_id": 60,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "henrik.bernstrom@jayway.com"
+      },
+      {
+        "id": 174,
+        "person_id": 304,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "joacim.lowgren@jayway.com"
+      },
+      {
+        "id": 175,
+        "person_id": 212,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "johan.olsson@jayway.com"
+      },
+      {
+        "id": 176,
+        "person_id": 88,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "johan.silfversparre@jayway.com"
+      },
+      {
+        "id": 178,
+        "person_id": 91,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "lars-hakan.jonsson@jayway.com"
+      },
+      {
+        "id": 179,
+        "person_id": 56,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "mattias.ask@jayway.com"
+      },
+      {
+        "id": 180,
+        "person_id": 217,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "ola.karlsson@jayway.com"
+      },
+      {
+        "id": 181,
+        "person_id": 273,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "per-erik.bergman@jayway.com"
+      },
+      {
+        "id": 182,
+        "person_id": 174,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "peter.lindstrom@jayway.com"
+      },
+      {
+        "id": 183,
+        "person_id": 265,
+        "competence_area_id": 9,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "robert.hedgate@jayway.com"
+      },
+      {
+        "id": 246,
+        "person_id": 337,
+        "competence_area_id": 9,
+        "start_date": "2014-08-19",
+        "end_date": null,
+        "created_at": "2014-08-19T18:24:08.000Z",
+        "updated_at": "2014-08-19T18:24:08.000Z",
+        "email": "alejandra.gonzalez@jayway.com"
+      },
+      {
+        "id": 253,
+        "person_id": 308,
+        "competence_area_id": 9,
+        "start_date": "2014-08-27",
+        "end_date": null,
+        "created_at": "2014-08-27T14:05:57.000Z",
+        "updated_at": "2014-08-27T14:05:57.000Z",
+        "email": "joakim.astbrant@jayway.com"
+      },
+      {
+        "id": 276,
+        "person_id": 138,
+        "competence_area_id": 9,
+        "start_date": "2014-09-17",
+        "end_date": null,
+        "created_at": "2014-09-17T10:37:58.000Z",
+        "updated_at": "2014-09-17T10:37:58.000Z",
+        "email": "peter.kleine@jayway.com"
+      },
+      {
+        "id": 301,
+        "person_id": 340,
+        "competence_area_id": 9,
+        "start_date": "2014-10-08",
+        "end_date": null,
+        "created_at": "2014-10-08T07:38:21.000Z",
+        "updated_at": "2014-10-08T07:38:21.000Z",
+        "email": "peter.trana@jayway.com"
+      },
+      {
+        "id": 327,
+        "person_id": 335,
+        "competence_area_id": 9,
+        "start_date": "2015-01-26",
+        "end_date": null,
+        "created_at": "2015-01-26T12:10:38.000Z",
+        "updated_at": "2015-01-26T12:10:38.000Z",
+        "email": "max.ringstrom@jayway.com"
+      },
+      {
+        "id": 334,
+        "person_id": 278,
+        "competence_area_id": 9,
+        "start_date": "2015-02-16",
+        "end_date": null,
+        "created_at": "2015-02-16T21:59:08.000Z",
+        "updated_at": "2015-02-16T21:59:08.000Z",
+        "email": "elma.cavalic@jayway.com"
+      },
+      {
+        "id": 360,
+        "person_id": 357,
+        "competence_area_id": 9,
+        "start_date": "2015-07-17",
+        "end_date": null,
+        "created_at": "2015-07-17T13:21:47.000Z",
+        "updated_at": "2015-07-17T13:21:47.000Z",
+        "email": "natalia.barbour@jayway.com"
+      },
+      {
+        "id": 364,
+        "person_id": 58,
+        "competence_area_id": 9,
+        "start_date": "2015-08-24",
+        "end_date": null,
+        "created_at": "2015-08-24T19:48:06.000Z",
+        "updated_at": "2015-08-24T19:48:06.000Z",
+        "email": "mario.boikov@jayway.com"
+      },
+      {
+        "id": 370,
+        "person_id": 375,
+        "competence_area_id": 9,
+        "start_date": "2015-11-23",
+        "end_date": null,
+        "created_at": "2015-11-23T09:15:16.000Z",
+        "updated_at": "2015-11-23T09:15:16.000Z",
+        "email": "alexandru.vasile@jayway.com"
+      },
+      {
+        "id": 372,
+        "person_id": 355,
+        "competence_area_id": 9,
+        "start_date": "2015-11-23",
+        "end_date": null,
+        "created_at": "2015-11-23T15:53:57.000Z",
+        "updated_at": "2015-11-23T15:53:57.000Z",
+        "email": "claus.simonsen@jayway.com"
+      },
+      {
+        "id": 380,
+        "person_id": 303,
+        "competence_area_id": 9,
+        "start_date": "2016-01-07",
+        "end_date": null,
+        "created_at": "2016-01-07T14:06:13.000Z",
+        "updated_at": "2016-01-07T14:06:13.000Z",
+        "email": "james.palm@jayway.com"
+      },
+      {
+        "id": 409,
+        "person_id": 395,
+        "competence_area_id": 9,
+        "start_date": "2016-08-09",
+        "end_date": null,
+        "created_at": "2016-08-09T07:58:10.000Z",
+        "updated_at": "2016-08-09T07:58:10.000Z",
+        "email": "dennis.overhage@jayway.com"
+      },
+      {
+        "id": 414,
+        "person_id": 408,
+        "competence_area_id": 9,
+        "start_date": "2016-09-07",
+        "end_date": null,
+        "created_at": "2016-09-07T12:20:37.000Z",
+        "updated_at": "2016-09-07T12:20:37.000Z",
+        "email": "marcus.lindfeldt@jayway.com"
+      },
+      {
+        "id": 428,
+        "person_id": 417,
+        "competence_area_id": 9,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T09:56:58.000Z",
+        "updated_at": "2017-01-03T09:56:58.000Z",
+        "email": "jacob.nyquist@jayway.com"
+      },
+      {
+        "id": 433,
+        "person_id": 397,
+        "competence_area_id": 9,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T10:02:31.000Z",
+        "updated_at": "2017-01-03T10:02:31.000Z",
+        "email": "mikkel.rasmussen@jayway.com"
+      },
+      {
+        "id": 464,
+        "person_id": 275,
+        "competence_area_id": 9,
+        "start_date": "2017-03-24",
+        "end_date": null,
+        "created_at": "2017-03-24T18:30:06.000Z",
+        "updated_at": "2017-03-24T18:30:06.000Z",
+        "email": "petar.mataic@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Visual Design",
+    "abbreviation": "Vis",
+    "color": "#fdbf6f",
+    "created_at": "2014-08-14T08:45:46.000Z",
+    "updated_at": "2014-08-14T08:45:46.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 184,
+        "person_id": 193,
+        "competence_area_id": 10,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "binh.tu@jayway.com"
+      },
+      {
+        "id": 185,
+        "person_id": 252,
+        "competence_area_id": 10,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "hakan.hedenstrom@jayway.com"
+      },
+      {
+        "id": 186,
+        "person_id": 86,
+        "competence_area_id": 10,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:23.000Z",
+        "updated_at": "2014-08-14T13:35:23.000Z",
+        "email": "hakan.reis@jayway.com"
+      },
+      {
+        "id": 247,
+        "person_id": 337,
+        "competence_area_id": 10,
+        "start_date": "2014-08-19",
+        "end_date": null,
+        "created_at": "2014-08-19T18:24:15.000Z",
+        "updated_at": "2014-08-19T18:24:15.000Z",
+        "email": "alejandra.gonzalez@jayway.com"
+      },
+      {
+        "id": 254,
+        "person_id": 308,
+        "competence_area_id": 10,
+        "start_date": "2014-08-27",
+        "end_date": null,
+        "created_at": "2014-08-27T14:06:12.000Z",
+        "updated_at": "2014-08-27T14:06:12.000Z",
+        "email": "joakim.astbrant@jayway.com"
+      },
+      {
+        "id": 332,
+        "person_id": 278,
+        "competence_area_id": 10,
+        "start_date": "2015-02-16",
+        "end_date": null,
+        "created_at": "2015-02-16T21:58:11.000Z",
+        "updated_at": "2015-02-16T21:58:11.000Z",
+        "email": "elma.cavalic@jayway.com"
+      },
+      {
+        "id": 410,
+        "person_id": 395,
+        "competence_area_id": 10,
+        "start_date": "2016-08-09",
+        "end_date": null,
+        "created_at": "2016-08-09T07:58:19.000Z",
+        "updated_at": "2016-08-09T07:58:19.000Z",
+        "email": "dennis.overhage@jayway.com"
+      },
+      {
+        "id": 423,
+        "person_id": 412,
+        "competence_area_id": 10,
+        "start_date": "2016-11-04",
+        "end_date": null,
+        "created_at": "2016-11-04T12:36:58.000Z",
+        "updated_at": "2016-11-04T12:36:58.000Z",
+        "email": "john.elgenstierna@jayway.com"
+      },
+      {
+        "id": 429,
+        "person_id": 417,
+        "competence_area_id": 10,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T09:57:09.000Z",
+        "updated_at": "2017-01-03T09:57:09.000Z",
+        "email": "jacob.nyquist@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Service Design and Design Mgmt",
+    "abbreviation": "SD/DM",
+    "color": "#d53e4f",
+    "created_at": "2014-08-14T08:47:01.000Z",
+    "updated_at": "2017-01-12T21:49:03.000Z",
+    "description": "Design management is a business discipline that uses project management, design, strategy, and supply chain techniques to control a creative process, support a culture of creativity, and build a structure and organisation for design. (source: wikipedia)",
+    "active_memberships": [
+      {
+        "id": 84,
+        "person_id": 81,
+        "competence_area_id": 11,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "christian.hedin@jayway.com"
+      },
+      {
+        "id": 86,
+        "person_id": 86,
+        "competence_area_id": 11,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "hakan.reis@jayway.com"
+      },
+      {
+        "id": 88,
+        "person_id": 56,
+        "competence_area_id": 11,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:34:26.000Z",
+        "updated_at": "2014-08-14T13:34:26.000Z",
+        "email": "mattias.ask@jayway.com"
+      },
+      {
+        "id": 244,
+        "person_id": 337,
+        "competence_area_id": 11,
+        "start_date": "2014-08-18",
+        "end_date": null,
+        "created_at": "2014-08-18T11:55:55.000Z",
+        "updated_at": "2014-08-18T11:55:55.000Z",
+        "email": "alejandra.gonzalez@jayway.com"
+      },
+      {
+        "id": 245,
+        "person_id": 178,
+        "competence_area_id": 11,
+        "start_date": "2014-08-19",
+        "end_date": null,
+        "created_at": "2014-08-19T09:09:02.000Z",
+        "updated_at": "2014-08-19T09:09:02.000Z",
+        "email": "philip.kron@jayway.com"
+      },
+      {
+        "id": 312,
+        "person_id": 253,
+        "competence_area_id": 11,
+        "start_date": "2014-11-14",
+        "end_date": null,
+        "created_at": "2014-11-14T12:53:02.000Z",
+        "updated_at": "2014-11-14T12:53:02.000Z",
+        "email": "fjodor.ekstrom@jayway.com"
+      },
+      {
+        "id": 333,
+        "person_id": 278,
+        "competence_area_id": 11,
+        "start_date": "2015-02-16",
+        "end_date": null,
+        "created_at": "2015-02-16T21:58:28.000Z",
+        "updated_at": "2015-02-16T21:58:28.000Z",
+        "email": "elma.cavalic@jayway.com"
+      },
+      {
+        "id": 354,
+        "person_id": 282,
+        "competence_area_id": 11,
+        "start_date": "2015-04-20",
+        "end_date": null,
+        "created_at": "2015-04-20T09:27:05.000Z",
+        "updated_at": "2015-04-20T09:27:05.000Z",
+        "email": "hang.ruan@jayway.com"
+      },
+      {
+        "id": 378,
+        "person_id": 303,
+        "competence_area_id": 11,
+        "start_date": "2016-01-07",
+        "end_date": null,
+        "created_at": "2016-01-07T14:05:20.000Z",
+        "updated_at": "2016-01-07T14:05:20.000Z",
+        "email": "james.palm@jayway.com"
+      },
+      {
+        "id": 430,
+        "person_id": 417,
+        "competence_area_id": 11,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T09:57:19.000Z",
+        "updated_at": "2017-01-03T09:57:19.000Z",
+        "email": "jacob.nyquist@jayway.com"
+      },
+      {
+        "id": 434,
+        "person_id": 397,
+        "competence_area_id": 11,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T10:02:47.000Z",
+        "updated_at": "2017-01-03T10:02:47.000Z",
+        "email": "mikkel.rasmussen@jayway.com"
+      },
+      {
+        "id": 450,
+        "person_id": 395,
+        "competence_area_id": 11,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:50:56.000Z",
+        "updated_at": "2017-01-11T12:50:56.000Z",
+        "email": "dennis.overhage@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Project Management",
+    "abbreviation": "PM",
+    "color": "#586e75",
+    "created_at": "2014-08-14T08:47:32.000Z",
+    "updated_at": "2014-08-26T16:30:29.000Z",
+    "description": "Making sure projects are delivered and customers are happy.",
+    "active_memberships": [
+      {
+        "id": 3,
+        "person_id": 178,
+        "competence_area_id": 12,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T10:28:57.000Z",
+        "updated_at": "2014-08-14T10:28:57.000Z",
+        "email": "philip.kron@jayway.com"
+      },
+      {
+        "id": 153,
+        "person_id": 81,
+        "competence_area_id": 12,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "christian.hedin@jayway.com"
+      },
+      {
+        "id": 157,
+        "person_id": 295,
+        "competence_area_id": 12,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "jonas.flodqvist@jayway.com"
+      },
+      {
+        "id": 158,
+        "person_id": 201,
+        "competence_area_id": 12,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "mads.troest@jayway.com"
+      },
+      {
+        "id": 159,
+        "person_id": 94,
+        "competence_area_id": 12,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "niclas.hognert@jayway.com"
+      },
+      {
+        "id": 160,
+        "person_id": 161,
+        "competence_area_id": 12,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "renas.reda@jayway.com"
+      },
+      {
+        "id": 373,
+        "person_id": 330,
+        "competence_area_id": 12,
+        "start_date": "2015-11-25",
+        "end_date": null,
+        "created_at": "2015-11-25T11:57:44.000Z",
+        "updated_at": "2015-11-25T11:57:44.000Z",
+        "email": "stefan.persson@jayway.com"
+      },
+      {
+        "id": 377,
+        "person_id": 303,
+        "competence_area_id": 12,
+        "start_date": "2016-01-07",
+        "end_date": null,
+        "created_at": "2016-01-07T14:05:08.000Z",
+        "updated_at": "2016-01-07T14:05:08.000Z",
+        "email": "james.palm@jayway.com"
+      },
+      {
+        "id": 400,
+        "person_id": 356,
+        "competence_area_id": 12,
+        "start_date": "2016-04-27",
+        "end_date": null,
+        "created_at": "2016-04-27T09:23:45.000Z",
+        "updated_at": "2016-04-27T09:23:45.000Z",
+        "email": "karl.marhall@jayway.com"
+      },
+      {
+        "id": 431,
+        "person_id": 397,
+        "competence_area_id": 12,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T10:02:10.000Z",
+        "updated_at": "2017-01-03T10:02:10.000Z",
+        "email": "mikkel.rasmussen@jayway.com"
+      },
+      {
+        "id": 436,
+        "person_id": 407,
+        "competence_area_id": 12,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T10:08:58.000Z",
+        "updated_at": "2017-01-03T10:08:58.000Z",
+        "email": "frank.brilhuis@jayway.com"
+      },
+      {
+        "id": 448,
+        "person_id": 132,
+        "competence_area_id": 12,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:10:34.000Z",
+        "updated_at": "2017-01-11T12:10:34.000Z",
+        "email": "sigurdur.birgisson@jayway.com"
+      },
+      {
+        "id": 460,
+        "person_id": 423,
+        "competence_area_id": 12,
+        "start_date": "2017-03-08",
+        "end_date": null,
+        "created_at": "2017-03-08T09:01:22.000Z",
+        "updated_at": "2017-03-08T09:01:22.000Z",
+        "email": "bolette.stubbe@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Cloud",
+    "abbreviation": "Cld",
+    "color": "#a6cee3",
+    "created_at": "2014-08-14T08:51:54.000Z",
+    "updated_at": "2014-08-20T11:50:54.000Z",
+    "description": "",
+    "active_memberships": [
+      {
+        "id": 67,
+        "person_id": 170,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "anders.janmyr@jayway.com"
+      },
+      {
+        "id": 68,
+        "person_id": 329,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "christoffer.jerrebo@jayway.com"
+      },
+      {
+        "id": 69,
+        "person_id": 276,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "daniel.kleveros@jayway.com"
+      },
+      {
+        "id": 70,
+        "person_id": 70,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "darius.katz@jayway.com"
+      },
+      {
+        "id": 71,
+        "person_id": 107,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "davor.crnomat@jayway.com"
+      },
+      {
+        "id": 72,
+        "person_id": 154,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "erik.ogenvik@jayway.com"
+      },
+      {
+        "id": 73,
+        "person_id": 225,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "jakob.nilsson-ehle@jayway.com"
+      },
+      {
+        "id": 74,
+        "person_id": 62,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "jan.kronquist@jayway.com"
+      },
+      {
+        "id": 75,
+        "person_id": 37,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "johan.haleby@jayway.com"
+      },
+      {
+        "id": 76,
+        "person_id": 164,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "johan.lundahl@jayway.com"
+      },
+      {
+        "id": 77,
+        "person_id": 38,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "johan.rask@jayway.com"
+      },
+      {
+        "id": 78,
+        "person_id": 76,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "mattias.severson@jayway.com"
+      },
+      {
+        "id": 80,
+        "person_id": 57,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:13.000Z",
+        "updated_at": "2014-08-14T13:33:13.000Z",
+        "email": "nils-olof.bankell@jayway.com"
+      },
+      {
+        "id": 81,
+        "person_id": 45,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:13.000Z",
+        "updated_at": "2014-08-14T13:33:13.000Z",
+        "email": "per.bockman@jayway.com"
+      },
+      {
+        "id": 82,
+        "person_id": 168,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:13.000Z",
+        "updated_at": "2014-08-14T13:33:13.000Z",
+        "email": "per.okvist@jayway.com"
+      },
+      {
+        "id": 83,
+        "person_id": 65,
+        "competence_area_id": 13,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:13.000Z",
+        "updated_at": "2014-08-14T13:33:13.000Z",
+        "email": "ulrik.sandberg@jayway.com"
+      },
+      {
+        "id": 242,
+        "person_id": 282,
+        "competence_area_id": 13,
+        "start_date": "2014-08-15",
+        "end_date": null,
+        "created_at": "2014-08-15T10:52:28.000Z",
+        "updated_at": "2014-08-15T10:52:28.000Z",
+        "email": "hang.ruan@jayway.com"
+      },
+      {
+        "id": 274,
+        "person_id": 35,
+        "competence_area_id": 13,
+        "start_date": "2014-09-13",
+        "end_date": null,
+        "created_at": "2014-09-13T10:14:04.000Z",
+        "updated_at": "2014-09-13T10:14:04.000Z",
+        "email": "jesper.nilsson@jayway.com"
+      },
+      {
+        "id": 305,
+        "person_id": 44,
+        "competence_area_id": 13,
+        "start_date": "2014-10-14",
+        "end_date": null,
+        "created_at": "2014-10-14T09:59:37.000Z",
+        "updated_at": "2014-10-14T09:59:37.000Z",
+        "email": "patrik.faijerson@jayway.com"
+      },
+      {
+        "id": 315,
+        "person_id": 347,
+        "competence_area_id": 13,
+        "start_date": "2014-11-18",
+        "end_date": null,
+        "created_at": "2014-11-18T09:46:34.000Z",
+        "updated_at": "2014-11-18T09:46:34.000Z",
+        "email": "pavel.rozenblioum@jayway.com"
+      },
+      {
+        "id": 319,
+        "person_id": 163,
+        "competence_area_id": 13,
+        "start_date": "2014-11-21",
+        "end_date": null,
+        "created_at": "2014-11-21T07:41:10.000Z",
+        "updated_at": "2014-11-21T07:41:10.000Z",
+        "email": "tomas.nilsson@jayway.com"
+      },
+      {
+        "id": 322,
+        "person_id": 342,
+        "competence_area_id": 13,
+        "start_date": "2015-01-12",
+        "end_date": null,
+        "created_at": "2015-01-12T12:25:16.000Z",
+        "updated_at": "2015-01-12T12:25:16.000Z",
+        "email": "magnus.forsberg@jayway.com"
+      },
+      {
+        "id": 329,
+        "person_id": 224,
+        "competence_area_id": 13,
+        "start_date": "2015-02-02",
+        "end_date": null,
+        "created_at": "2015-02-02T08:25:37.000Z",
+        "updated_at": "2015-02-02T08:25:37.000Z",
+        "email": "christian.jacobsen@jayway.com"
+      },
+      {
+        "id": 336,
+        "person_id": 351,
+        "competence_area_id": 13,
+        "start_date": "2015-03-04",
+        "end_date": null,
+        "created_at": "2015-03-04T19:27:33.000Z",
+        "updated_at": "2015-03-04T19:27:33.000Z",
+        "email": "carl.nordenfelt@jayway.com"
+      },
+      {
+        "id": 344,
+        "person_id": 356,
+        "competence_area_id": 13,
+        "start_date": "2015-03-12",
+        "end_date": null,
+        "created_at": "2015-03-12T07:44:37.000Z",
+        "updated_at": "2015-03-12T07:44:37.000Z",
+        "email": "karl.marhall@jayway.com"
+      },
+      {
+        "id": 346,
+        "person_id": 352,
+        "competence_area_id": 13,
+        "start_date": "2015-03-31",
+        "end_date": null,
+        "created_at": "2015-03-31T13:14:39.000Z",
+        "updated_at": "2015-03-31T13:14:39.000Z",
+        "email": "tomas.lycken@jayway.com"
+      },
+      {
+        "id": 350,
+        "person_id": 358,
+        "competence_area_id": 13,
+        "start_date": "2015-04-14",
+        "end_date": null,
+        "created_at": "2015-04-14T10:56:22.000Z",
+        "updated_at": "2015-04-14T10:56:22.000Z",
+        "email": "albert.bertilsson@jayway.com"
+      },
+      {
+        "id": 358,
+        "person_id": 311,
+        "competence_area_id": 13,
+        "start_date": "2015-05-25",
+        "end_date": null,
+        "created_at": "2015-05-25T09:16:28.000Z",
+        "updated_at": "2015-05-25T09:16:28.000Z",
+        "email": "abbas.hassanali@jayway.com"
+      },
+      {
+        "id": 376,
+        "person_id": 318,
+        "competence_area_id": 13,
+        "start_date": "2016-01-07",
+        "end_date": null,
+        "created_at": "2016-01-07T07:55:05.000Z",
+        "updated_at": "2016-01-07T07:55:05.000Z",
+        "email": "johan.nordenswan@jayway.com"
+      },
+      {
+        "id": 402,
+        "person_id": 241,
+        "competence_area_id": 13,
+        "start_date": "2016-05-19",
+        "end_date": null,
+        "created_at": "2016-05-19T12:20:27.000Z",
+        "updated_at": "2016-05-19T12:20:27.000Z",
+        "email": "andreas.gustafsson@jayway.com"
+      },
+      {
+        "id": 406,
+        "person_id": 267,
+        "competence_area_id": 13,
+        "start_date": "2016-05-26",
+        "end_date": null,
+        "created_at": "2016-05-26T18:29:44.000Z",
+        "updated_at": "2016-05-26T18:29:44.000Z",
+        "email": "johannes.peltopiri@jayway.com"
+      },
+      {
+        "id": 416,
+        "person_id": 405,
+        "competence_area_id": 13,
+        "start_date": "2016-09-28",
+        "end_date": null,
+        "created_at": "2016-09-28T07:51:36.000Z",
+        "updated_at": "2016-09-28T07:51:36.000Z",
+        "email": "cristian.contreras@jayway.com"
+      },
+      {
+        "id": 421,
+        "person_id": 42,
+        "competence_area_id": 13,
+        "start_date": "2016-11-02",
+        "end_date": null,
+        "created_at": "2016-11-02T08:31:38.000Z",
+        "updated_at": "2016-11-02T08:31:38.000Z",
+        "email": "mattias.lindskog@jayway.com"
+      },
+      {
+        "id": 424,
+        "person_id": 74,
+        "competence_area_id": 13,
+        "start_date": "2016-11-07",
+        "end_date": null,
+        "created_at": "2016-11-07T12:33:05.000Z",
+        "updated_at": "2016-11-07T12:33:05.000Z",
+        "email": "jonas.graudums@jayway.com"
+      },
+      {
+        "id": 451,
+        "person_id": 413,
+        "competence_area_id": 13,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T13:02:45.000Z",
+        "updated_at": "2017-01-11T13:02:45.000Z",
+        "email": "carl.fagerlin@jayway.com"
+      },
+      {
+        "id": 454,
+        "person_id": 130,
+        "competence_area_id": 13,
+        "start_date": "2017-01-12",
+        "end_date": null,
+        "created_at": "2017-01-12T07:15:56.000Z",
+        "updated_at": "2017-01-12T07:15:56.000Z",
+        "email": "karl-johan.stenflo@jayway.com"
+      },
+      {
+        "id": 462,
+        "person_id": 234,
+        "competence_area_id": 13,
+        "start_date": "2017-03-10",
+        "end_date": null,
+        "created_at": "2017-03-10T14:05:51.000Z",
+        "updated_at": "2017-03-10T14:05:51.000Z",
+        "email": "anders.poulsen@jayway.com"
+      },
+      {
+        "id": 466,
+        "person_id": 433,
+        "competence_area_id": 13,
+        "start_date": "2017-04-18",
+        "end_date": null,
+        "created_at": "2017-04-18T09:40:15.000Z",
+        "updated_at": "2017-04-18T09:40:15.000Z",
+        "email": "stefan.nordlander@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Architecture",
+    "abbreviation": "Arch",
+    "color": "#cb4b16",
+    "created_at": "2014-08-14T08:52:38.000Z",
+    "updated_at": "2014-08-20T12:20:46.000Z",
+    "description": "",
+    "active_memberships": [
+      {
+        "id": 34,
+        "person_id": 24,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "albin.theander@jayway.com"
+      },
+      {
+        "id": 35,
+        "person_id": 160,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "anders.eriksson@jayway.com"
+      },
+      {
+        "id": 37,
+        "person_id": 170,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "anders.janmyr@jayway.com"
+      },
+      {
+        "id": 38,
+        "person_id": 238,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "andreas.eriksson@jayway.com"
+      },
+      {
+        "id": 39,
+        "person_id": 329,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "christoffer.jerrebo@jayway.com"
+      },
+      {
+        "id": 41,
+        "person_id": 207,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "erik.chrissopoulos@jayway.com"
+      },
+      {
+        "id": 42,
+        "person_id": 154,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "erik.ogenvik@jayway.com"
+      },
+      {
+        "id": 43,
+        "person_id": 150,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:56.000Z",
+        "updated_at": "2014-08-14T13:31:56.000Z",
+        "email": "gustaf.nk@jayway.com"
+      },
+      {
+        "id": 44,
+        "person_id": 282,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "hang.ruan@jayway.com"
+      },
+      {
+        "id": 45,
+        "person_id": 25,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "henrik.lundahl@jayway.com"
+      },
+      {
+        "id": 46,
+        "person_id": 32,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "hugo.josefson@jayway.com"
+      },
+      {
+        "id": 47,
+        "person_id": 312,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "jacob.ferm@jayway.com"
+      },
+      {
+        "id": 48,
+        "person_id": 225,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "jakob.nilsson-ehle@jayway.com"
+      },
+      {
+        "id": 49,
+        "person_id": 62,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "jan.kronquist@jayway.com"
+      },
+      {
+        "id": 50,
+        "person_id": 128,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "jens.nordahl@jayway.com"
+      },
+      {
+        "id": 51,
+        "person_id": 37,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "johan.haleby@jayway.com"
+      },
+      {
+        "id": 52,
+        "person_id": 164,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "johan.lundahl@jayway.com"
+      },
+      {
+        "id": 53,
+        "person_id": 38,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "johan.rask@jayway.com"
+      },
+      {
+        "id": 54,
+        "person_id": 267,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "johannes.peltopiri@jayway.com"
+      },
+      {
+        "id": 55,
+        "person_id": 130,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "karl-johan.stenflo@jayway.com"
+      },
+      {
+        "id": 56,
+        "person_id": 61,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "magnus.kivi@jayway.com"
+      },
+      {
+        "id": 57,
+        "person_id": 42,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "mattias.lindskog@jayway.com"
+      },
+      {
+        "id": 58,
+        "person_id": 76,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "mattias.severson@jayway.com"
+      },
+      {
+        "id": 60,
+        "person_id": 57,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "nils-olof.bankell@jayway.com"
+      },
+      {
+        "id": 61,
+        "person_id": 264,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "oskar.wickstrom@jayway.com"
+      },
+      {
+        "id": 62,
+        "person_id": 45,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "per.bockman@jayway.com"
+      },
+      {
+        "id": 63,
+        "person_id": 168,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:31:57.000Z",
+        "updated_at": "2014-08-14T13:31:57.000Z",
+        "email": "per.okvist@jayway.com"
+      },
+      {
+        "id": 64,
+        "person_id": 332,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:32:00.000Z",
+        "updated_at": "2014-08-14T13:32:00.000Z",
+        "email": "steve.widinghoff@jayway.com"
+      },
+      {
+        "id": 65,
+        "person_id": 248,
+        "competence_area_id": 14,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:33:12.000Z",
+        "updated_at": "2014-08-14T13:33:12.000Z",
+        "email": "timo.hillerns@jayway.com"
+      },
+      {
+        "id": 249,
+        "person_id": 87,
+        "competence_area_id": 14,
+        "start_date": "2014-08-20",
+        "end_date": null,
+        "created_at": "2014-08-20T09:09:02.000Z",
+        "updated_at": "2014-08-20T09:09:02.000Z",
+        "email": "joakim.hogart@jayway.com"
+      },
+      {
+        "id": 251,
+        "person_id": 251,
+        "competence_area_id": 14,
+        "start_date": "2014-08-20",
+        "end_date": null,
+        "created_at": "2014-08-20T11:49:54.000Z",
+        "updated_at": "2014-08-20T11:49:54.000Z",
+        "email": "johan.linden@jayway.com"
+      },
+      {
+        "id": 263,
+        "person_id": 66,
+        "competence_area_id": 14,
+        "start_date": "2014-09-02",
+        "end_date": null,
+        "created_at": "2014-09-02T11:42:13.000Z",
+        "updated_at": "2014-09-02T11:42:13.000Z",
+        "email": "niklas.uhrberg@jayway.com"
+      },
+      {
+        "id": 275,
+        "person_id": 35,
+        "competence_area_id": 14,
+        "start_date": "2014-09-13",
+        "end_date": null,
+        "created_at": "2014-09-13T10:15:18.000Z",
+        "updated_at": "2014-09-13T10:15:18.000Z",
+        "email": "jesper.nilsson@jayway.com"
+      },
+      {
+        "id": 283,
+        "person_id": 224,
+        "competence_area_id": 14,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T08:15:08.000Z",
+        "updated_at": "2014-09-29T08:15:08.000Z",
+        "email": "christian.jacobsen@jayway.com"
+      },
+      {
+        "id": 292,
+        "person_id": 15,
+        "competence_area_id": 14,
+        "start_date": "2014-10-03",
+        "end_date": null,
+        "created_at": "2014-10-03T09:07:21.000Z",
+        "updated_at": "2014-10-03T09:07:21.000Z",
+        "email": "mads.enevoldsen@jayway.com"
+      },
+      {
+        "id": 294,
+        "person_id": 4,
+        "competence_area_id": 14,
+        "start_date": "2014-10-06",
+        "end_date": null,
+        "created_at": "2014-10-06T07:52:37.000Z",
+        "updated_at": "2014-10-06T07:52:37.000Z",
+        "email": "steen.lehmann@jayway.com"
+      },
+      {
+        "id": 300,
+        "person_id": 340,
+        "competence_area_id": 14,
+        "start_date": "2014-10-08",
+        "end_date": null,
+        "created_at": "2014-10-08T07:37:36.000Z",
+        "updated_at": "2014-10-08T07:37:36.000Z",
+        "email": "peter.trana@jayway.com"
+      },
+      {
+        "id": 316,
+        "person_id": 347,
+        "competence_area_id": 14,
+        "start_date": "2014-11-18",
+        "end_date": null,
+        "created_at": "2014-11-18T09:46:44.000Z",
+        "updated_at": "2014-11-18T09:46:44.000Z",
+        "email": "pavel.rozenblioum@jayway.com"
+      },
+      {
+        "id": 318,
+        "person_id": 44,
+        "competence_area_id": 14,
+        "start_date": "2014-11-19",
+        "end_date": null,
+        "created_at": "2014-11-19T13:01:27.000Z",
+        "updated_at": "2014-11-19T13:01:27.000Z",
+        "email": "patrik.faijerson@jayway.com"
+      },
+      {
+        "id": 321,
+        "person_id": 342,
+        "competence_area_id": 14,
+        "start_date": "2015-01-12",
+        "end_date": null,
+        "created_at": "2015-01-12T12:24:59.000Z",
+        "updated_at": "2015-01-12T12:24:59.000Z",
+        "email": "magnus.forsberg@jayway.com"
+      },
+      {
+        "id": 335,
+        "person_id": 351,
+        "competence_area_id": 14,
+        "start_date": "2015-03-04",
+        "end_date": null,
+        "created_at": "2015-03-04T19:27:25.000Z",
+        "updated_at": "2015-03-04T19:27:25.000Z",
+        "email": "carl.nordenfelt@jayway.com"
+      },
+      {
+        "id": 342,
+        "person_id": 356,
+        "competence_area_id": 14,
+        "start_date": "2015-03-09",
+        "end_date": null,
+        "created_at": "2015-03-09T10:18:57.000Z",
+        "updated_at": "2015-03-09T10:18:57.000Z",
+        "email": "karl.marhall@jayway.com"
+      },
+      {
+        "id": 347,
+        "person_id": 352,
+        "competence_area_id": 14,
+        "start_date": "2015-03-31",
+        "end_date": null,
+        "created_at": "2015-03-31T13:15:00.000Z",
+        "updated_at": "2015-03-31T13:15:00.000Z",
+        "email": "tomas.lycken@jayway.com"
+      },
+      {
+        "id": 348,
+        "person_id": 65,
+        "competence_area_id": 14,
+        "start_date": "2015-04-13",
+        "end_date": null,
+        "created_at": "2015-04-13T13:22:24.000Z",
+        "updated_at": "2015-04-13T13:22:24.000Z",
+        "email": "ulrik.sandberg@jayway.com"
+      },
+      {
+        "id": 349,
+        "person_id": 358,
+        "competence_area_id": 14,
+        "start_date": "2015-04-14",
+        "end_date": null,
+        "created_at": "2015-04-14T10:56:08.000Z",
+        "updated_at": "2015-04-14T10:56:08.000Z",
+        "email": "albert.bertilsson@jayway.com"
+      },
+      {
+        "id": 353,
+        "person_id": 354,
+        "competence_area_id": 14,
+        "start_date": "2015-04-19",
+        "end_date": null,
+        "created_at": "2015-04-19T19:47:49.000Z",
+        "updated_at": "2015-04-19T19:47:49.000Z",
+        "email": "lars.ostling@jayway.com"
+      },
+      {
+        "id": 374,
+        "person_id": 253,
+        "competence_area_id": 14,
+        "start_date": "2015-12-01",
+        "end_date": null,
+        "created_at": "2015-12-01T13:34:22.000Z",
+        "updated_at": "2015-12-01T13:34:22.000Z",
+        "email": "fjodor.ekstrom@jayway.com"
+      },
+      {
+        "id": 375,
+        "person_id": 318,
+        "competence_area_id": 14,
+        "start_date": "2016-01-07",
+        "end_date": null,
+        "created_at": "2016-01-07T07:54:40.000Z",
+        "updated_at": "2016-01-07T07:54:40.000Z",
+        "email": "johan.nordenswan@jayway.com"
+      },
+      {
+        "id": 413,
+        "person_id": 408,
+        "competence_area_id": 14,
+        "start_date": "2016-09-07",
+        "end_date": null,
+        "created_at": "2016-09-07T12:19:52.000Z",
+        "updated_at": "2016-09-07T12:19:52.000Z",
+        "email": "marcus.lindfeldt@jayway.com"
+      },
+      {
+        "id": 426,
+        "person_id": 163,
+        "competence_area_id": 14,
+        "start_date": "2016-11-19",
+        "end_date": null,
+        "created_at": "2016-11-19T10:18:11.000Z",
+        "updated_at": "2016-11-19T10:18:11.000Z",
+        "email": "tomas.nilsson@jayway.com"
+      },
+      {
+        "id": 449,
+        "person_id": 328,
+        "competence_area_id": 14,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T12:17:10.000Z",
+        "updated_at": "2017-01-11T12:17:10.000Z",
+        "email": "anton.fagerberg@jayway.com"
+      },
+      {
+        "id": 452,
+        "person_id": 413,
+        "competence_area_id": 14,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T13:03:21.000Z",
+        "updated_at": "2017-01-11T13:03:21.000Z",
+        "email": "carl.fagerlin@jayway.com"
+      },
+      {
+        "id": 469,
+        "person_id": 433,
+        "competence_area_id": 14,
+        "start_date": "2017-04-18",
+        "end_date": null,
+        "created_at": "2017-04-18T09:40:40.000Z",
+        "updated_at": "2017-04-18T09:40:40.000Z",
+        "email": "stefan.nordlander@jayway.com"
+      },
+      {
+        "id": 473,
+        "person_id": 434,
+        "competence_area_id": 14,
+        "start_date": "2017-04-19",
+        "end_date": null,
+        "created_at": "2017-04-19T07:48:02.000Z",
+        "updated_at": "2017-04-19T07:48:02.000Z",
+        "email": "peter.christiansen@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Mobile Architecture & Infrastructure",
+    "abbreviation": "Mob",
+    "color": "#859900",
+    "created_at": "2014-08-14T08:53:47.000Z",
+    "updated_at": "2014-08-20T12:21:08.000Z",
+    "description": "",
+    "active_memberships": [
+      {
+        "id": 141,
+        "person_id": 277,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "alexander.persson@jayway.com"
+      },
+      {
+        "id": 142,
+        "person_id": 205,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "andreas.hammar@jayway.com"
+      },
+      {
+        "id": 143,
+        "person_id": 260,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "andreas.nilsson@jayway.com"
+      },
+      {
+        "id": 144,
+        "person_id": 165,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "gustaf.nilklint@jayway.com"
+      },
+      {
+        "id": 145,
+        "person_id": 3,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "kasper.hansen@jayway.com"
+      },
+      {
+        "id": 146,
+        "person_id": 266,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "kenneth.andersson@jayway.com"
+      },
+      {
+        "id": 147,
+        "person_id": 201,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "mads.troest@jayway.com"
+      },
+      {
+        "id": 148,
+        "person_id": 159,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "mattias.sjogren@jayway.com"
+      },
+      {
+        "id": 149,
+        "person_id": 309,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "michael.persson@jayway.com"
+      },
+      {
+        "id": 150,
+        "person_id": 57,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "nils-olof.bankell@jayway.com"
+      },
+      {
+        "id": 151,
+        "person_id": 273,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "per-erik.bergman@jayway.com"
+      },
+      {
+        "id": 152,
+        "person_id": 275,
+        "competence_area_id": 15,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "petar.mataic@jayway.com"
+      },
+      {
+        "id": 259,
+        "person_id": 280,
+        "competence_area_id": 15,
+        "start_date": "2014-09-01",
+        "end_date": null,
+        "created_at": "2014-09-01T11:38:42.000Z",
+        "updated_at": "2014-09-01T11:38:42.000Z",
+        "email": "svante.farjh@jayway.com"
+      },
+      {
+        "id": 271,
+        "person_id": 103,
+        "competence_area_id": 15,
+        "start_date": "2014-09-05",
+        "end_date": null,
+        "created_at": "2014-09-05T08:24:27.000Z",
+        "updated_at": "2014-09-05T08:24:27.000Z",
+        "email": "andreas.ekberg@jayway.se"
+      },
+      {
+        "id": 307,
+        "person_id": 81,
+        "competence_area_id": 15,
+        "start_date": "2014-11-01",
+        "end_date": null,
+        "created_at": "2014-11-01T12:12:11.000Z",
+        "updated_at": "2014-11-01T12:12:11.000Z",
+        "email": "christian.hedin@jayway.com"
+      },
+      {
+        "id": 362,
+        "person_id": 317,
+        "competence_area_id": 15,
+        "start_date": "2015-08-18",
+        "end_date": null,
+        "created_at": "2015-08-18T14:14:45.000Z",
+        "updated_at": "2015-08-18T14:14:45.000Z",
+        "email": "jimmie.jensen@jayway.com"
+      },
+      {
+        "id": 371,
+        "person_id": 375,
+        "competence_area_id": 15,
+        "start_date": "2015-11-23",
+        "end_date": null,
+        "created_at": "2015-11-23T09:15:39.000Z",
+        "updated_at": "2015-11-23T09:15:39.000Z",
+        "email": "alexandru.vasile@jayway.com"
+      },
+      {
+        "id": 390,
+        "person_id": 385,
+        "competence_area_id": 15,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T12:36:51.000Z",
+        "updated_at": "2016-02-10T12:36:51.000Z",
+        "email": "anders.haahr@jayway.com"
+      },
+      {
+        "id": 395,
+        "person_id": 386,
+        "competence_area_id": 15,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T13:18:19.000Z",
+        "updated_at": "2016-02-10T13:18:19.000Z",
+        "email": "jeppe.leth@jayway.com"
+      },
+      {
+        "id": 405,
+        "person_id": 242,
+        "competence_area_id": 15,
+        "start_date": "2016-05-20",
+        "end_date": null,
+        "created_at": "2016-05-20T06:00:27.000Z",
+        "updated_at": "2016-05-20T06:00:27.000Z",
+        "email": "laszlo.urszuly@jayway.com"
+      },
+      {
+        "id": 455,
+        "person_id": 419,
+        "competence_area_id": 15,
+        "start_date": "2017-01-12",
+        "end_date": null,
+        "created_at": "2017-01-12T08:10:29.000Z",
+        "updated_at": "2017-01-12T08:10:29.000Z",
+        "email": "markus.maga@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Sales",
+    "abbreviation": "Sale",
+    "color": "rgb(255,223,2)",
+    "created_at": "2014-08-14T08:54:54.000Z",
+    "updated_at": "2014-08-14T08:54:54.000Z",
+    "description": null,
+    "active_memberships": [
+      {
+        "id": 2,
+        "person_id": 178,
+        "competence_area_id": 16,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T10:28:48.000Z",
+        "updated_at": "2014-08-14T10:28:48.000Z",
+        "email": "philip.kron@jayway.com"
+      },
+      {
+        "id": 161,
+        "person_id": 250,
+        "competence_area_id": 16,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "aleksandar.filipov@jayway.com"
+      },
+      {
+        "id": 162,
+        "person_id": 235,
+        "competence_area_id": 16,
+        "start_date": "2014-08-14",
+        "end_date": null,
+        "created_at": "2014-08-14T13:35:22.000Z",
+        "updated_at": "2014-08-14T13:35:22.000Z",
+        "email": "par.siko@jayway.com"
+      },
+      {
+        "id": 306,
+        "person_id": 295,
+        "competence_area_id": 16,
+        "start_date": "2014-10-23",
+        "end_date": null,
+        "created_at": "2014-10-23T11:11:11.000Z",
+        "updated_at": "2014-10-23T11:11:11.000Z",
+        "email": "jonas.flodqvist@jayway.com"
+      },
+      {
+        "id": 379,
+        "person_id": 303,
+        "competence_area_id": 16,
+        "start_date": "2016-01-07",
+        "end_date": null,
+        "created_at": "2016-01-07T14:05:28.000Z",
+        "updated_at": "2016-01-07T14:05:28.000Z",
+        "email": "james.palm@jayway.com"
+      },
+      {
+        "id": 432,
+        "person_id": 397,
+        "competence_area_id": 16,
+        "start_date": "2017-01-03",
+        "end_date": null,
+        "created_at": "2017-01-03T10:02:19.000Z",
+        "updated_at": "2017-01-03T10:02:19.000Z",
+        "email": "mikkel.rasmussen@jayway.com"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Security",
+    "abbreviation": "Sec",
+    "color": "#33A02C",
+    "created_at": "2014-09-29T07:27:58.000Z",
+    "updated_at": "2014-09-29T07:27:58.000Z",
+    "description": "Software security competence area",
+    "active_memberships": [
+      {
+        "id": 279,
+        "person_id": 334,
+        "competence_area_id": 17,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T07:28:02.000Z",
+        "updated_at": "2014-09-29T07:28:02.000Z",
+        "email": "elizabeth.andrews@jayway.com"
+      },
+      {
+        "id": 280,
+        "person_id": 317,
+        "competence_area_id": 17,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T08:04:15.000Z",
+        "updated_at": "2014-09-29T08:04:15.000Z",
+        "email": "jimmie.jensen@jayway.com"
+      },
+      {
+        "id": 281,
+        "person_id": 224,
+        "competence_area_id": 17,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T08:14:24.000Z",
+        "updated_at": "2014-09-29T08:14:24.000Z",
+        "email": "christian.jacobsen@jayway.com"
+      },
+      {
+        "id": 285,
+        "person_id": 107,
+        "competence_area_id": 17,
+        "start_date": "2014-09-29",
+        "end_date": null,
+        "created_at": "2014-09-29T08:31:14.000Z",
+        "updated_at": "2014-09-29T08:31:14.000Z",
+        "email": "davor.crnomat@jayway.com"
+      },
+      {
+        "id": 293,
+        "person_id": 45,
+        "competence_area_id": 17,
+        "start_date": "2014-10-06",
+        "end_date": null,
+        "created_at": "2014-10-06T06:21:02.000Z",
+        "updated_at": "2014-10-06T06:21:02.000Z",
+        "email": "per.bockman@jayway.com"
+      },
+      {
+        "id": 359,
+        "person_id": 251,
+        "competence_area_id": 17,
+        "start_date": "2015-05-26",
+        "end_date": null,
+        "created_at": "2015-05-26T09:04:07.000Z",
+        "updated_at": "2015-05-26T09:04:07.000Z",
+        "email": "johan.linden@jayway.com"
+      },
+      {
+        "id": 396,
+        "person_id": 386,
+        "competence_area_id": 17,
+        "start_date": "2016-02-10",
+        "end_date": null,
+        "created_at": "2016-02-10T13:19:20.000Z",
+        "updated_at": "2016-02-10T13:19:20.000Z",
+        "email": "jeppe.leth@jayway.com"
+      },
+      {
+        "id": 442,
+        "person_id": 35,
+        "competence_area_id": 17,
+        "start_date": "2017-01-11",
+        "end_date": null,
+        "created_at": "2017-01-11T11:59:30.000Z",
+        "updated_at": "2017-01-11T11:59:30.000Z",
+        "email": "jesper.nilsson@jayway.com"
+      },
+      {
+        "id": 467,
+        "person_id": 433,
+        "competence_area_id": 17,
+        "start_date": "2017-04-18",
+        "end_date": null,
+        "created_at": "2017-04-18T09:40:23.000Z",
+        "updated_at": "2017-04-18T09:40:23.000Z",
+        "email": "stefan.nordlander@jayway.com"
+      }
+    ]
+  }
+]
