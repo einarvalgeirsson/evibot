@@ -146,6 +146,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
 
                           } else if (action === 'getPeopleInProject') {
                             let alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
+                            console.log('allocations', alloc);
                             let project = response.result.paramters.project;
                             var people = "";
                             for (var i = 0; i < alloc.length; i++) {
