@@ -115,43 +115,36 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                         let responseData = response.result.fulfillment.data;
                         let action = response.result.action;
 
-                        if (action === "listCompetences") {
-                          let competence = response.result.parameters.competence.toLowerCase();
-                          let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
-                          let people = [];
 
-                          // for (var i = 0; i < data.length; i++) {
-                          // }
-                          for (var i = 0; i < data.length; i++) {
-                           if (data[i].name.toLowerCase() === competence) {
-                             var emails = "";
-                             data[i].active_memberships.forEach(function(member) {
-                               emails += member.email + " ";
-                              console.log(member.email);
-                              });
-                           }
-                          }
-
-                          console.log('emails ', emails);
-
-                        }
-
-                        // Lookup in competence json
-
-                        if (isDefined(responseData) && isDefined(responseData.slack)) {
+                        if (isDefined(responseData)) {
                             try{
                                 bot.reply(message, responseData.slack);
                             } catch (err) {
                                 bot.reply(message, err.message);
                             }
                         } else if (isDefined(responseText)) {
-                            bot.reply(message, responseText, (err, resp) => {
+
+                          if (action === "listCompetences") {
+                            let competence = response.result.parameters.competence.toLowerCase();
+                            let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
+
+                            for (var i = 0; i < data.length; i++) {
+                             if (data[i].name.toLowerCase() === competence) {
+                               var emails = "";
+                               data[i].active_memberships.forEach(function(member) {
+                                 emails += member.email + " \n";
+                                console.log(member.email);
+                                });
+                             }
+                            }
+                            console.log('emails ', emails);
+                          }
+                            bot.reply(message, responseText + "\n" + emails, (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
                             });
                         }
-
                     }
                 });
 
