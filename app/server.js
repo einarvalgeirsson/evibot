@@ -121,9 +121,8 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                           console.log("data", data);
                           let people = [];
 
-                          for (var i = 0; i < data.length; i++) {
-                            array[i]
-                          }
+                          // for (var i = 0; i < data.length; i++) {
+                          // }
 
 
                           console.log('####BEFORE FOR###');
