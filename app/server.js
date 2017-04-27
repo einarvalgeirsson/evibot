@@ -115,16 +115,29 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                         let responseData = response.result.fulfillment.data;
                         let action = response.result.action;
 
-                        if (action == "listCompetences") {
+                        if (action === "listCompetences") {
                           let competence = response.result.parameters.competence;
                           let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
+                          console.log("data", data);
                           let people = [];
 
+                          for (var i = 0; i < data.length; i++) {
+                            array[i]
+                          }
+
+
+                          console.log('####BEFORE FOR###');
+
                           for (var competenceObj in data) {
+                            console.log('####LOOPING###');
+
                             if (competenceObj.name === competence) {
-                              console.log(competenceObj.color);
+                              console.log('####COLOR###',competenceObj.color);
                             }
                           }
+
+                          console.log('####AFTER FOR###');
+
 
 
                         //   for(var c in data) {
