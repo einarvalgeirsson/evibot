@@ -5,6 +5,8 @@ var jwt = require("express-jwt");
 var rsaValidation = require('auth0-api-jwt-rsa-validation');
 var bodyParser = require('body-parser')
 var http = require('http')
+var fs = require('fs')
+
 
 const Botkit = require('botkit');
 const apiai = require('apiai');
