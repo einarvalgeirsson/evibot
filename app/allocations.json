@@ -1,0 +1,40 @@
+{
+  "allocations": [
+    {
+      "id": "1",
+      "start_date": "2016-10-14",
+      "end_date": "2017-04-27",
+      "comment": "",
+      "person_id": "kasper.hansen@jayway.com",
+      "project_id": "telia",
+      "role_id": "2",
+      "created_at": "2016-09-14",
+      "updated_at": "2017-02-27",
+      "probability": "100",
+      "allocated_pct": "100",
+      "final": "0",
+      "updater_id": "300",
+      "version": null,
+      "average_payment": "850",
+      "location_id": "1"
+    },
+    {
+      "id": "2",
+      "start_date": "2016-10-14",
+      "end_date": "2017-07-25",
+      "comment": "",
+      "person_id": "steen.lehmann@jayway.com",
+      "project_id": "gleerups",
+      "role_id": "3",
+      "created_at": "2016-09-14",
+      "updated_at": "2017-02-27",
+      "probability": "100",
+      "allocated_pct": "100",
+      "final": "0",
+      "updater_id": "300",
+      "version": null,
+      "average_payment": "850",
+      "location_id": "2"
+    }
+  ]
+}

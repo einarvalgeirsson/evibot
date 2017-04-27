@@ -137,12 +137,29 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                              }
                             }
                             console.log('emails ', emails);
-                          }
                             bot.reply(message, responseText + "\n" + emails, (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
                             });
+
+
+                          } else if (action === 'getPeopleInProject') {
+                            let alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
+                            let project = response.result.paramters.project;
+                            var people = "";
+                            for (var i = 0; i < alloc.length; i++) {
+                              if (alloc[i].project_id === project) {
+                                  people += alloc[i].person_id;
+                              }
+                            }
+                            bot.reply(message, responseText + "\n" + people, (err, resp) => {
+                                if (err) {
+                                    console.error(err);
+                                }
+                            });
+                          }
+
                         }
                     }
                 });
@@ -155,13 +172,6 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
         console.error(err);
     }
 });
-
-// app.get('/', function(request, response) {
-//    var result = 'App is running'
-//    response.send(result);
-// }).listen(app.get('port'), function() {
-//    console.log('App is running, server is listening on port ', app.get('port'));
-// });
 
 //Create a server to prevent Heroku kills the bot
 const server = http.createServer(function (request, response) {
