@@ -151,12 +151,22 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             console.log('allocations', alloc);
 
                             let project = response.result.parameters.project.toLowerCase();
+                            console.log('project', project);
+
                             var people = "";
                             for (var i = 0; i < alloc.length; i++) {
+                              console.log('loop ', i);
+
                               if (alloc[i].project_id.toLowerCase() === project) {
+                                console.log('found match', alloc[i].project_id.toLowerCase());
+
                                   people += alloc[i].person_id + "\n";
                               }
                             }
+
+                            console.log('people ', people);
+
+
                             bot.reply(message, responseText + "\n" + people, (err, resp) => {
                                 if (err) {
                                     console.error(err);
