@@ -34,5 +34,41 @@
       "version": null,
       "average_payment": "850",
       "location_id": "2"
+    },
+    {
+      "id": "1",
+      "start_date": "2016-10-14",
+      "end_date": "2017-04-27",
+      "comment": "",
+      "person_id": "filip.svensson@jayway.com",
+      "project_id": "gleerups",
+      "role_id": "2",
+      "created_at": "2016-09-14",
+      "updated_at": "2017-02-27",
+      "probability": "100",
+      "allocated_pct": "100",
+      "final": "0",
+      "updater_id": "300",
+      "version": null,
+      "average_payment": "850",
+      "location_id": "1"
+    },
+    {
+      "id": "1",
+      "start_date": "2016-10-14",
+      "end_date": "2017-04-27",
+      "comment": "",
+      "person_id": "einar.valgeirsson@jayway.com",
+      "project_id": "downtime",
+      "role_id": "2",
+      "created_at": "2016-09-14",
+      "updated_at": "2017-02-27",
+      "probability": "100",
+      "allocated_pct": "100",
+      "final": "0",
+      "updater_id": "300",
+      "version": null,
+      "average_payment": "850",
+      "location_id": "1"
     }
 ]
