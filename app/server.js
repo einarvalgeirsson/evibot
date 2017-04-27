@@ -155,7 +155,13 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
 });
 
 //Create a server to prevent Heroku kills the bot
-const server = http.createServer((req, res) => res.end());
+const server = http.createServer(function (request, response) {
+      response.writeHead(200, {
+         'Content-Type': 'text/plain'
+      });
+      response.write('Hi!')
+      response.end();
+});
 
 //Lets start our server
 server.listen((process.env.port || 8000, () => console.log("Server listening")));
