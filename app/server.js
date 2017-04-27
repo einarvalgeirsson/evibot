@@ -40,10 +40,10 @@ var bot = botController.spawn({
 
 const apiaiOptions = {};
 
-apiaiOptions.hostname = process.env.DEVELOPMENT_HOST;
+//apiaiOptions.hostname = process.env.DEVELOPMENT_HOST;
 apiaiOptions.path = "/api/query";
 
-console.log('hostname', apiaiOptions.hostname);
+//console.log('hostname', apiaiOptions.hostname);
 
 const apiAiService = apiai(apiAiAccessToken, apiaiOptions);
 
