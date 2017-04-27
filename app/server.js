@@ -150,10 +150,10 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             let alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
                             console.log('allocations', alloc);
 
-                            let project = response.result.parameters.project;
+                            let project = response.result.parameters.project.toLowerCase();
                             var people = "";
                             for (var i = 0; i < alloc.length; i++) {
-                              if (alloc[i].project_id === project) {
+                              if (alloc[i].project_id.toLowerCase() === project) {
                                   people += alloc[i].person_id + "\n";
                               }
                             }
