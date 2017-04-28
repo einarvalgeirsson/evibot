@@ -7,7 +7,6 @@ var bodyParser = require('body-parser')
 var http = require('http')
 var fs = require('fs')
 
-
 const Botkit = require('botkit');
 const apiai = require('apiai');
 const Entities = require('html-entities').XmlEntities;
@@ -79,6 +78,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                 let messageType = message.event;
                 let botId = '<@' + bot.identity.id + '>';
                 let userId = message.user;
+                var sessionId = sessionIds.get(channel);
 
                 console.log('requestText ', requestText);
                 console.log('messageType', messageType);
@@ -138,13 +138,22 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             const people = getPeopleInProject(project);
                             console.log('people ', people);
 
+                            var event = {
+                                      "name":"mapPersonToProject",
+                                      "data":{
+                                          "result": people
+                                        }
+                                      };
+
+
+
+                            sendEventToApiAi(event)
                             bot.reply(message, formatSlackMsg(responseText, people), (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
                             });
                           }
-
                         }
                     }
                 });
@@ -157,6 +166,13 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
         console.error(err);
     }
 });
+
+function sendEventToApiAi(event) {
+  var options = {
+    sessionId: sessionId
+  };
+  apiAiService.eventRequest(event, options);
+}
 
 function getMembers(competence) {
   const data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
