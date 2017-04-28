@@ -169,7 +169,9 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
 });
 
 function sendEventToApiAi(event, options) {
-  apiAiService.eventRequest(event, options);
+  let eventRequest = apiAiService.eventRequest(event, options);
+  eventRequest.on('error', (error) => console.error(error));
+  eventRequest.end();
 }
 
 function getMembers(competence) {
