@@ -140,7 +140,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             var event = {
                                       "name":"mapPersonToProject",
                                       "data":{
-                                          "result": people
+                                          "result": "kasper.hansen@jayway.com"
                                         }
                                       };
 
