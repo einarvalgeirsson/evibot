@@ -155,6 +155,13 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                                 }
                             });
                           }
+                          else if (action === 'getEndDate') {
+                            bot.reply(message, responseText, (err, resp) => {
+                                if (err) {
+                                    console.error(err);
+                                }
+                            });
+                          }
                         }
                     }
                 });
