@@ -156,7 +156,18 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             });
                           }
                           else if (action === 'getEndDate') {
-                            bot.reply(message, responseText, (err, resp) => {
+                            const alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
+                            const project = response.result.parameters.project.toLowerCase();
+                            const people = getPeopleInProject(project);
+
+                            let date = "?";
+                            for (var i = 0; i < alloc.length; i++) {
+                              if (alloc[i].project_id.toLowerCase() === project && alloc[i].person_id == name) {
+                                date = alloc[i].end_date;
+                              }
+                            }
+
+                            bot.reply(message, formatSlackMsg(responseText, date), (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
@@ -206,6 +217,21 @@ function getPeopleInProject(project) {
   }
   return people;
 }
+
+// only difference no newline
+function getSinglePersonInProject(project) {
+  const alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
+  console.log('allocations', alloc);
+  let people = "";
+  for (var i = 0; i < alloc.length; i++) {
+    if (alloc[i].project_id.toLowerCase() === project) {
+      console.log('found match', alloc[i].project_id.toLowerCase());
+      people += "- " + alloc[i].person_id;
+    }
+  }
+  return people;
+}
+
 
 function formatSlackMsg(title, items) {
  return {
