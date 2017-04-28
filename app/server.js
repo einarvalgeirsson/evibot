@@ -122,50 +122,21 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                                 bot.reply(message, err.message);
                             }
                         } else if (isDefined(responseText)) {
-
                           console.log('action', action);
-
                           if (action === "listCompetences") {
-                            let competence = response.result.parameters.competence.toLowerCase();
-                            let data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
-
-                            for (var i = 0; i < data.length; i++) {
-                             if (data[i].name.toLowerCase() === competence) {
-                               var emails = "";
-                               data[i].active_memberships.forEach(function(member) {
-                                 emails += member.email + " \n";
-                                console.log(member.email);
-                                });
-                             }
-                            }
-                            console.log('emails ', emails);
-                            bot.reply(message, formatSlackMsg(responseText, emails), (err, resp) => {
+                            // get people in competence area
+                            const competence = response.result.parameters.competence.toLowerCase();
+                            const members = getMembers(competence);
+                            bot.reply(message, formatSlackMsg(responseText, members), (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
                             });
-
-
                           } else if (action === 'getPeopleInProject') {
-                            let alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
-                            console.log('allocations', alloc);
-
-                            let project = response.result.parameters.project.toLowerCase();
+                            const project = response.result.parameters.project.toLowerCase();
                             console.log('project', project);
-
-                            var people = "";
-                            for (var k = 0; k < alloc.length; k++) {
-                              console.log('loop ', k);
-
-                              if (alloc[k].project_id.toLowerCase() === project) {
-                                console.log('found match', alloc[k].project_id.toLowerCase());
-
-                                  people += alloc[k].person_id + "\n";
-                              }
-                            }
-
+                            const people = getPeopleInProject(project);
                             console.log('people ', people);
-
 
                             bot.reply(message, formatSlackMsg(responseText, people), (err, resp) => {
                                 if (err) {
@@ -187,6 +158,32 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
     }
 });
 
+function getMembers(competence) {
+  const data = JSON.parse(fs.readFileSync('data/competences.json', 'utf8'));
+  let emails = "";
+  for (var i = 0; i < data.length; i++) {
+   if (data[i].name.toLowerCase() === competence) {
+     data[i].active_memberships.forEach(function(member) {
+       emails += "- " + member.email + "\n";
+      });
+   }
+  }
+  return emails;
+}
+
+function getPeopleInProject(project) {
+  const alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
+  console.log('allocations', alloc);
+  const people = "";
+  for (var i = 0; i < alloc.length; i++) {
+    if (alloc[i].project_id.toLowerCase() === project) {
+      console.log('found match', alloc[i].project_id.toLowerCase());
+      people += "- " + alloc[i].person_id + "\n";
+    }
+  }
+  return people;
+}
+
 function formatSlackMsg(title, items) {
  return {
            attachments: [
@@ -202,6 +199,7 @@ function formatSlackMsg(title, items) {
            ]
        }
 }
+
 //Create a server to prevent Heroku kills the bot
 const server = http.createServer(function (request, response) {
       response.writeHead(200, {
