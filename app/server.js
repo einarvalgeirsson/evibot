@@ -174,7 +174,7 @@ function getMembers(competence) {
 function getPeopleInProject(project) {
   const alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
   console.log('allocations', alloc);
-  const people = "";
+  let people = "";
   for (var i = 0; i < alloc.length; i++) {
     if (alloc[i].project_id.toLowerCase() === project) {
       console.log('found match', alloc[i].project_id.toLowerCase());
