@@ -139,7 +139,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                              }
                             }
                             console.log('emails ', emails);
-                            bot.reply(message, responseText + "\n" + emails, (err, resp) => {
+                            bot.reply(message, formatSlackMsg(responseText, emails), (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
