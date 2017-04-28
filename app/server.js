@@ -78,7 +78,6 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                 let messageType = message.event;
                 let botId = '<@' + bot.identity.id + '>';
                 let userId = message.user;
-                var sessionId = sessionIds.get(channel);
 
                 console.log('requestText ', requestText);
                 console.log('messageType', messageType);
@@ -146,8 +145,10 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                                       };
 
 
-
-                            sendEventToApiAi(event)
+                            var options = {
+                                        sessionId: sessionIds.get(channel)
+                            };
+                            sendEventToApiAi(event, options)
                             bot.reply(message, formatSlackMsg(responseText, people), (err, resp) => {
                                 if (err) {
                                     console.error(err);
@@ -167,10 +168,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
     }
 });
 
-function sendEventToApiAi(event) {
-  var options = {
-    sessionId: sessionId
-  };
+function sendEventToApiAi(event, options) {
   apiAiService.eventRequest(event, options);
 }
 
