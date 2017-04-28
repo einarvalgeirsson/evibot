@@ -167,7 +167,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                             console.log('people ', people);
 
 
-                            bot.reply(message, responseText + "\n" + people, (err, resp) => {
+                            bot.reply(message, formatSlackMsg(responseText, people), (err, resp) => {
                                 if (err) {
                                     console.error(err);
                                 }
@@ -187,6 +187,21 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
     }
 });
 
+function formatSlackMsg(title, items) {
+ return {
+           attachments: [
+               {
+                          color: '#36a64f',
+                    fields: [
+                       {
+                           title: title,
+                           value: items
+                       }
+                          ]
+               }
+           ]
+       }
+}
 //Create a server to prevent Heroku kills the bot
 const server = http.createServer(function (request, response) {
       response.writeHead(200, {
