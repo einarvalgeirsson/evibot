@@ -167,6 +167,9 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                               console.log('##loop',i)
                               console.log('##project',project)
                               console.log('##name',name)
+                              console.log(alloc[i].project_id.toLowerCase());
+                              console.log(alloc[i].person_id.toLowerCase());
+
                               if (alloc[i].project_id.toLowerCase() === project && alloc[i].person_id === name) {
                                 date = alloc[i].end_date;
                                 console.log('##match', date)
