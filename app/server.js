@@ -158,7 +158,7 @@ botController.hears(['.*'], ['direct_message', 'direct_mention', 'mention', 'amb
                           else if (action === 'getEndDate') {
                             const alloc = JSON.parse(fs.readFileSync('data/allocations.json', 'utf8'));
                             const project = response.result.parameters.project.toLowerCase();
-                            const name = getPeopleInProject(project);
+                            const name = getSinglePersonInProject(project);
 
                             console.log('##name',name)
 
