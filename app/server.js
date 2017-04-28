@@ -235,7 +235,7 @@ function getSinglePersonInProject(project) {
   for (var i = 0; i < alloc.length; i++) {
     if (alloc[i].project_id.toLowerCase() === project) {
       console.log('found match', alloc[i].project_id.toLowerCase());
-      people += "- " + alloc[i].person_id;
+      people += alloc[i].person_id;
     }
   }
   return people;
